@@ -1,0 +1,36 @@
+.side-bar{
+    width: 14em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-right: 8px;
+}
+
+.layout-wrapper{
+    display: flex;
+    height: 98vh;
+}
+
+.main-content{
+    width: auto;
+    width: -webkit-fill-available;
+    background-color: #d3d3d391;
+    padding: 2rem;
+}
+
+.avatar-wrapper{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.avatar-title-wrapper{
+    text-align: center;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.study {
+    font-size: 13px;
+    font-weight: 400;
+}
