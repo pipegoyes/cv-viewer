@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { MainInformationComponent } from './main-information/main-information.component';
 import { SidebarModule } from 'primeng/sidebar';
 import { ButtonModule } from 'primeng/button';
 import { MenuItem } from 'primeng/api/menuitem';
@@ -11,7 +10,7 @@ import { AvatarModule } from 'primeng/avatar';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MainInformationComponent, SidebarModule, ButtonModule, MenuModule, CardModule, AvatarModule],
+  imports: [RouterOutlet, SidebarModule, ButtonModule, MenuModule, CardModule, AvatarModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
@@ -37,7 +36,6 @@ export class AppComponent {
           ]
       }
     ]
-
     this.contactItems = [
       { label: 'Mainz / Frankfurt', icon: 'pi pi-home' },
       { label: 'f.goyes@bojsen.eu', icon: 'pi pi-envelope' },
