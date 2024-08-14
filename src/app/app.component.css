@@ -3,12 +3,7 @@
     height: 98vh;
 }
 
-/* Side bar css*/ 
 .side-bar{
-    width: 14em;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
     padding-right: 8px;
 }
 
@@ -16,6 +11,7 @@
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    cursor: pointer;
 }
 
 .avatar-title-wrapper{
@@ -29,3 +25,8 @@
     font-weight: 400;
 }
 
+
+.main-content{
+    background-color: #d3d3d391;
+    padding: 2rem;
+}

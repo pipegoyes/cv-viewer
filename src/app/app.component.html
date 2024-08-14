@@ -1,12 +1,12 @@
 <div class="layout-wrapper">
 
-    <div class="side-bar">
-        <div class="header">
-            <div class="avatar-wrapper">
+    <div class="side-bar flex flex-column justify-content-between">
+        <div class="header col">
+            <div class="avatar-wrapper" routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">
                 <p-avatar 
                 image="img/felipe.jpg" 
                 styleClass="mr-2" 
-                size="xlarge" 
+                size="xlarge"
                 shape="circle" />
             </div>
             
@@ -16,19 +16,20 @@
                 </div>
                 <span class="study">Software Engineer</span>
             </div>
-        </div>
 
-        <div class="content">
             <p-menu [model]="expirenceItems" />
-        </div>
+        </div>        
 
-        <div class="footer">
+        <div class="footer col-4">
             <p-menu [model]="contactItems" />
         </div>
 
     </div>
 
-    <router-outlet></router-outlet>
+    <div class="main-content flex flex-column h-full w-full">
+        <router-outlet></router-outlet>
+    </div>
+    
 
 </div>
 

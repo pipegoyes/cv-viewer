@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { SidebarModule } from 'primeng/sidebar';
 import { ButtonModule } from 'primeng/button';
 import { MenuItem } from 'primeng/api/menuitem';
@@ -11,7 +11,7 @@ import { HomeComponent } from "./home/home.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SidebarModule, ButtonModule, MenuModule, CardModule, AvatarModule, HomeComponent],
+  imports: [RouterOutlet, SidebarModule, ButtonModule, MenuModule, CardModule, AvatarModule, HomeComponent, RouterOutlet, RouterLink, RouterLinkActive],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
@@ -28,7 +28,8 @@ export class AppComponent {
           items: [
               {
                   label: 'Projects',
-                  icon: 'pi pi-plus'
+                  icon: 'pi pi-plus', 
+                  routerLink: "/projects"
               },
               {
                   label: 'Technologies',
