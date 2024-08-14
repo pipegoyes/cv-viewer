@@ -43,15 +43,18 @@ export class AppComponent {
           ]
       }
     ]
-    this.contactItems = [
-      { label: 'Mainz / Frankfurt', icon: 'pi pi-home' },
-      { label: 'f.goyes@bojsen.eu', icon: 'pi pi-envelope' },
-      { label: 'Mobile: +49 163 249 5024', icon: 'pi pi-phone' }
-  ];
   }
 
   ngOnInit(){
      this.person$ = this.personService.getPerson("felipe", "EN");
+
+     this.person$.subscribe(s => {
+      this.contactItems = [
+        { label: s.location, icon: 'pi pi-home' },
+        { label: s.email, icon: 'pi pi-envelope' },
+        { label: 'Mobile:'+ s.phone, icon: 'pi pi-phone' }
+      ]
+     })
   }
 
 }

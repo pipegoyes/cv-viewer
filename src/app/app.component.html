@@ -1,6 +1,6 @@
 <div class="layout-wrapper">
 
-    <div cla ss="side-bar flex flex-column justify-content-between"  *ngIf="(person$ | async) as person">
+    <div class="side-bar flex flex-column justify-content-between"  *ngIf="(person$ | async) as person">
         <div class="header col" >
             <div class="avatar-wrapper" routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">
                 
@@ -21,7 +21,7 @@
             <p-menu [model]="expirenceItems" />
         </div>        
 
-        <div class="footer col-4">
+        <div class="footer">
             <p-menu [model]="contactItems" />
         </div>
 
