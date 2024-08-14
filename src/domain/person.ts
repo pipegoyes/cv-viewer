@@ -8,7 +8,7 @@ export interface Person {
     location?:                       string;
     highestEducation?:               string;
     dayOfBirth?:                     string;
-    projectManagementMethodologies?: Paradigm[];
+    projectManagementMethodologies?: ProjectMethodologie[];
     certifications?:                 string[];
     paradigms?:                      Paradigm[];
     tools?:                          Framework[];
@@ -34,6 +34,11 @@ export interface Language {
 }
 
 export interface Paradigm {
+    name?:                    string;
+    numberOfYearsExperience?: number;
+}
+
+export interface ProjectMethodologie {
     name?:                    string;
     numberOfYearsExperience?: number;
 }

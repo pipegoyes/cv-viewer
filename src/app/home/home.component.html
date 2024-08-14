@@ -1,8 +1,8 @@
 
 <div class="col">
-    <p-card header="Full Stack / Senior Software Developer ">
+    <p-card [header]="headline">
         <p class="m-0">
-            Senior Software Engineer mit über 10 Jahren umfassender Erfahrung in der Softwareentwicklung, der eine nachweisliche Erfolgsbilanz bei der Bereitstellung hochwertiger Lösungen in verschiedenen Bereichen, einschließlich Backend-Systeme und Websites, vorweisen kann. Erfahren in der Leitung agiler Projekte und der Führung von Entwicklungsteams, mit einem starken Fokus auf die Förderung von Zusammenarbeit und die effiziente Erreichung von Projektzielen.
+            {{summary}}
         </p>
     </p-card>
 </div>
@@ -11,16 +11,13 @@
     <div class="grid">
         <div class="col">
             <p-card header="Languages">
-                <div class="col">Spanisch</div>
-                <div class="col">Deutsch</div>
-                <div class="col">Englisch</div>
+                <div *ngFor="let language of languages" class="col">{{language.Name}}</div>
             </p-card>
         </div>
 
         <div class="col">
             <p-card header="Project Methodologies ">
-                <div class="col">Scrum</div>
-                <div class="col">Kanban</div>
+                <div *ngFor="let pm of projectMethodologies" class="col">{{pm.name}}</div>
             </p-card>
         </div>
     </div>
@@ -28,6 +25,6 @@
 
 <div class="col">
     <p-card header="Certifications">
-        <div class="col">Azure fundamentals</div>
+        <div *ngFor="let certification of certifications" class="col">{{certification}}</div>
     </p-card>
 </div>
