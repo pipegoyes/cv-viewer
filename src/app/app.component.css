@@ -1,21 +1,16 @@
-.side-bar{
-    width: 14em;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding-right: 8px;
-}
 
 .layout-wrapper{
     display: flex;
     height: 98vh;
 }
 
-.main-content{
-    width: auto;
-    width: -webkit-fill-available;
-    background-color: #d3d3d391;
-    padding: 2rem;
+/* Side bar css*/ 
+.side-bar{
+    width: 14em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-right: 8px;
 }
 
 .avatar-wrapper{
@@ -34,3 +29,13 @@
     font-size: 13px;
     font-weight: 400;
 }
+
+/* Starts main css */
+
+.main-content{
+    width: auto;
+    width: -webkit-fill-available;
+    background-color: #d3d3d391;
+    padding: 2rem;
+}
+
