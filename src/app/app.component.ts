@@ -7,11 +7,15 @@ import { MenuModule } from 'primeng/menu';
 import { CardModule } from 'primeng/card';
 import { AvatarModule } from 'primeng/avatar';
 import { HomeComponent } from "./home/home.component";
+import { Person } from '../domain/person';
+import { PersonService } from './person.service';
+import { Observable } from 'rxjs';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SidebarModule, ButtonModule, MenuModule, CardModule, AvatarModule, HomeComponent, RouterOutlet, RouterLink, RouterLinkActive],
+  imports: [CommonModule, MenuModule, CardModule, AvatarModule, HomeComponent, RouterOutlet, RouterLink, RouterLinkActive],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
@@ -20,8 +24,9 @@ export class AppComponent {
   sidebarVisible: boolean = false;
   expirenceItems: MenuItem[] | undefined;
   contactItems: MenuItem[] | undefined;
+  person$!: Observable<Person>;
 
-  constructor(){
+  constructor(public personService: PersonService){
     this.expirenceItems = [
       {
           label: 'Expirence',
@@ -45,4 +50,9 @@ export class AppComponent {
   ];
   }
 
+  ngOnInit(){
+     this.person$ = this.personService.getPerson("felipe", "EN");
+  }
+
 }
+  

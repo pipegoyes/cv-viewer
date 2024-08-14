@@ -1,20 +1,21 @@
 <div class="layout-wrapper">
 
-    <div class="side-bar flex flex-column justify-content-between">
-        <div class="header col">
+    <div cla ss="side-bar flex flex-column justify-content-between"  *ngIf="(person$ | async) as person">
+        <div class="header col" >
             <div class="avatar-wrapper" routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">
+                
                 <p-avatar 
-                image="img/felipe.jpg" 
-                styleClass="mr-2" 
-                size="xlarge"
-                shape="circle" />
+                    [image]="'img/'+person.profilePicturePath" 
+                    styleClass="mr-2" 
+                    size="xlarge"
+                    shape="circle" />
             </div>
             
             <div class="avatar-title-wrapper">
                 <div class="name-wrapper">
-                    <span>Felipe Goyes</span>
+                    <span>{{person.name}}</span>
                 </div>
-                <span class="study">Software Engineer</span>
+                <span class="study">{{person.highestEducation}}</span>
             </div>
 
             <p-menu [model]="expirenceItems" />
