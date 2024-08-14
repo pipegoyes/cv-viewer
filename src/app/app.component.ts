@@ -6,11 +6,12 @@ import { MenuItem } from 'primeng/api/menuitem';
 import { MenuModule } from 'primeng/menu';
 import { CardModule } from 'primeng/card';
 import { AvatarModule } from 'primeng/avatar';
+import { HomeComponent } from "./home/home.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, SidebarModule, ButtonModule, MenuModule, CardModule, AvatarModule],
+  imports: [RouterOutlet, SidebarModule, ButtonModule, MenuModule, CardModule, AvatarModule, HomeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
