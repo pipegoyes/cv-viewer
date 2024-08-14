@@ -1,10 +1,6 @@
-<div class="col">
-    <p-card header="Maria - Markt Risiko Berechnung / LBBW " subheader="2023-04-01 to 2024-07-31">
-        Umstrukturierung des Software-Lebenszyklus, Erhöhung der Softwarequalität durch Best Practices (UnitTests, Integrationstests, Smoke-Tests, Code-Richtlinien, Automatisierung von Releases), Mitwirkung an Architekturentscheidungen.
+<div class="col" *ngFor="let project of projects">
+    <p-card [header]="project.ProjectName + ' / '+ project.Customer" [subheader]="project.StartDate + ' to ' + project.EndDate">
+        {{project.Description}}
     </p-card>
 </div>
-<div class="col">
-    <p-card header="Maria - Markt Risiko Berechnung / LBBW " subheader="2023-04-01 to 2024-07-31">
-        Umstrukturierung des Software-Lebenszyklus, Erhöhung der Softwarequalität durch Best Practices (UnitTests, Integrationstests, Smoke-Tests, Code-Richtlinien, Automatisierung von Releases), Mitwirkung an Architekturentscheidungen.
-    </p-card>
-</div>
+
