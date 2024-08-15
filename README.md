@@ -14,3 +14,10 @@ features
 - change language in a menu bar
 - new component technologies
 - show technologies in projects card
+
+
+## Deployment
+- Build artifacts
+    ng build 
+- Deploy with swa CLI
+    swa deploy .\dist\cv-viewer\browser\
