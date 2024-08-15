@@ -7,6 +7,7 @@ Bugs
 - HTTP error in console after loading person json
 - projects without name show 'null'
 - no scroll bar when many projects
+- mobile view must be improved
 
 features
 - change language in a menu bar

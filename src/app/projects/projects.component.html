@@ -1,6 +1,11 @@
 <div class="col" *ngFor="let project of projects">
     <p-card [header]="project.ProjectName + ' / '+ project.Customer" [subheader]="project.StartDate + ' to ' + project.EndDate">
         {{project.Description}}
+        <ng-template pTemplate="footer">
+            <div class="flex flex-wrap gap-2">
+                <p-tag *ngFor="let tech of project.Technologies.split(',')" [value]="tech"></p-tag>
+            </div>
+        </ng-template>
     </p-card>
 </div>
 

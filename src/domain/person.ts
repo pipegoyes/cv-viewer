@@ -57,5 +57,5 @@ export interface Project {
     ProjectType?:     number;
     Role?:            string;
     Sectors?:         string;
-    Technologies?:    string;
+    Technologies:     string;
 }
