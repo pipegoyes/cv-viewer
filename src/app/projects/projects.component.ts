@@ -19,7 +19,7 @@ export class ProjectsComponent {
   }
 
   ngOnInit(){
-    this.personService.getPerson("felipe", "EN").subscribe(data => {
+    this.personService.getPerson("felipe", "DE").subscribe(data => {
       this.projects = data.projects;
     })
   }

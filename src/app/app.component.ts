@@ -29,24 +29,24 @@ export class AppComponent {
   constructor(public personService: PersonService){
     this.expirenceItems = [
       {
-          label: 'Expirence',
+          label: 'Erfahrung',
           items: [
               {
-                  label: 'Projects',
+                  label: 'Projekten',
                   icon: 'pi pi-plus', 
                   routerLink: "/projects"
               },
-              {
-                  label: 'Technologies',
-                  icon: 'pi pi-search'
-              }
+              // {
+              //     label: 'Technologies',
+              //     icon: 'pi pi-search'
+              // }
           ]
       }
     ]
   }
 
   ngOnInit(){
-     this.person$ = this.personService.getPerson("felipe", "EN");
+     this.person$ = this.personService.getPerson("felipe", "DE");
 
      this.person$.subscribe(s => {
       this.contactItems = [

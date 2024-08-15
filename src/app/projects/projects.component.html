@@ -1,5 +1,5 @@
 <div class="col" *ngFor="let project of projects">
-    <p-card [header]="project.ProjectName + ' / '+ project.Customer" [subheader]="project.StartDate + ' to ' + project.EndDate">
+    <p-card [header]="project.ProjectName + ' / '+ project.Customer" [subheader]="project.StartDate + ' bis ' + project.EndDate">
         {{project.Description}}
         <ng-template pTemplate="footer">
             <div class="flex flex-wrap gap-2">

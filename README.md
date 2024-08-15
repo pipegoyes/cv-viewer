@@ -2,6 +2,7 @@ todos
 - use enviorement variables to handle person name
 - deploy in an static web site azure
 - use domain to display static web site
+- enviroment variables to deal with name 
 
 Bugs 
 - HTTP error in console after loading person json

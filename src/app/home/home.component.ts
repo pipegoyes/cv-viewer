@@ -23,7 +23,7 @@ export class HomeComponent {
   }
 
   ngOnInit(){
-    this.personService.getPerson("felipe", "EN").subscribe(data =>{
+    this.personService.getPerson("felipe", "DE").subscribe(data =>{
       this.languages = data.languages
       this.projectMethodologies = data.projectManagementMethodologies
       this.certifications = data.certifications
