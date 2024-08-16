@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
-import { SidebarModule } from 'primeng/sidebar';
 import { ButtonModule } from 'primeng/button';
 import { MenuItem } from 'primeng/api/menuitem';
 import { MenuModule } from 'primeng/menu';
@@ -11,11 +10,12 @@ import { Person } from '../domain/person';
 import { PersonService } from './person.service';
 import { Observable } from 'rxjs';
 import { CommonModule } from '@angular/common';
+import { MenubarModule } from 'primeng/menubar';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, MenuModule, CardModule, AvatarModule, HomeComponent, RouterOutlet, RouterLink, RouterLinkActive],
+  imports: [CommonModule, MenuModule, CardModule, AvatarModule, HomeComponent, RouterOutlet, RouterLink, RouterLinkActive, ButtonModule, MenubarModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
@@ -23,26 +23,24 @@ export class AppComponent {
   title = 'cv-viewer';
   sidebarVisible: boolean = false;
   expirenceItems: MenuItem[] | undefined;
+  projectItems: MenuItem[] | undefined;
   contactItems: MenuItem[] | undefined;
   person$!: Observable<Person>;
 
   constructor(public personService: PersonService){
+    this.projectItems = [
+      {
+          label: 'Projekten',
+          icon: 'pi pi-plus', 
+          routerLink: "/projects"
+      },
+  ]
     this.expirenceItems = [
       {
           label: 'Erfahrung',
-          items: [
-              {
-                  label: 'Projekten',
-                  icon: 'pi pi-plus', 
-                  routerLink: "/projects"
-              },
-              // {
-              //     label: 'Technologies',
-              //     icon: 'pi pi-search'
-              // }
-          ]
-      }
-    ]
+          items: this.projectItems
+      }]
+
   }
 
   ngOnInit(){

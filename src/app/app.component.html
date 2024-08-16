@@ -18,10 +18,17 @@
                 <span class="study">{{person.highestEducation}}</span>
             </div>
 
-            <p-menu [model]="expirenceItems" />
+            <div class="menu-wrapper">
+                <p-menu [model]="expirenceItems" />
+            </div>
+
+            <div class="mobile-menu-wrapper align-content-center pl-3">
+                <p-button *ngFor="let item of projectItems" [label]="item.label" severity="secondary" [text]="true" [routerLink]="item.routerLink"></p-button>
+            </div>
+            
         </div>        
 
-        <div class="footer">
+        <div class="menu-wrapper">
             <p-menu [model]="contactItems" />
         </div>
 
