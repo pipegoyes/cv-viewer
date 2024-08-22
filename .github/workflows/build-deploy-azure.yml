@@ -26,8 +26,8 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_DEPLOYMENT_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload" # More info https://aka.ms/swaworkflowconfig
-          app_location: "/src" # App source code path
-          output_location: "dist/cv-viewer" 
+          app_location: "/" # App source code path
+          output_location: "dist" 
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
