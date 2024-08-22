@@ -27,7 +27,8 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload" # More info https://aka.ms/swaworkflowconfig
           app_location: "/" # App source code path
-          output_location: "dist/cv-viewer/browser" 
+          output_location: "dist/cv-viewer/browser"
+          app_build_command: "npm run release"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
