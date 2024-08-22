@@ -11,7 +11,7 @@ import { PersonService } from './person.service';
 import { Observable } from 'rxjs';
 import { CommonModule } from '@angular/common';
 import { MenubarModule } from 'primeng/menubar';
-import { version } from "../../package.json";
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -27,7 +27,7 @@ export class AppComponent {
   projectItems: MenuItem[] | undefined;
   contactItems: MenuItem[] | undefined;
   person$!: Observable<Person>;
-  appVersion: string = version;
+  appVersion: string = environment.appVersion;
 
   constructor(public personService: PersonService){
     this.projectItems = [
