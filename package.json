@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "release": "npm version patch -m 'Updated to %s' && ng build --configuration production ",
+    "release": "npm version patch -m \"Updated to %s\" && ng build --configuration production ",
     "test": "ng test",
     "serve:ssr:cv-viewer": "node dist/cv-viewer/server/server.mjs"
   },
