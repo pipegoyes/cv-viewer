@@ -10,6 +10,11 @@ features
 - change language in a menu bar
 - new component technologies
 
+## Versions
+- How to increase version? 
+    Following command increase version of package.json and create a commit with a tag
+    npm version patch -m "Upgrade app to %s"
+
 
 ## Deployment
 - Build artifacts
