@@ -272,7 +272,7 @@
             "ContractedHours": 0,
             "Customer": "LBBW",
             "DeliveredHours": 0,
-            "Description": "Umstrukturierung des Software-Lebenszyklus, Erhöhung der Softwarequalität durch Best Practices (UnitTests, Integrationstests, Smoke-Tests, Code-Richtlinien, Automatisierung von Releases), Mitwirkung an Architekturentscheidungen.",
+            "Description": "Als Senior Software Developer habe ich aktiv im Backend-Team mitgewirkt und dabei Technologien wie Entity Framework Core, Camunda und SQL Server erfolgreich eingesetzt. Gemeinsam mit dem Business habe ich die richtigen Anforderungen identifiziert und in die Entwicklung neuer Features integriert, stets mit Fokus auf hohe Geschwindigkeit und Qualität. Meine Beteiligung an architektonischen Entscheidungen sowie die Implementierung von Software Best-Practices und Scrum im Projekt haben wesentlich zur erfolgreichen Umsetzung beigetragen. Die Qualitätssicherung wurde durch den Einsatz von Unit Tests und Integrationstests gewährleistet. Zudem habe ich meine Kollegen durch Coaching dabei unterstützt, die Sprintziele zu erreichen. Durch enge Kommunikation mit Stakeholdern und der Projektleitung habe ich zur Erreichung langfristiger Milestones beigetragen. In einem hochkomplexen Softwareprojekt, das drei Entwicklungsteams und über 30 beteiligte Personen umfasste, konnte ich maßgeblich zum Erfolg des Projekts beitragen.",
             "StartDate": "2023-04-01",
             "EndDate": "2024-07-31",
             "HourlyRate": 0.0,
@@ -288,7 +288,7 @@
             "ContractedHours": 0,
             "Customer": "Societe Generale",
             "DeliveredHours": 0,
-            "Description": "Erweiterung der Funktionalität in ein bestehendes komplexes System, Sicherstellung der Qualität für den missionskritischen Prozess, Neugestaltung des Prozesses unter Verwendung von Zustandsautomaten (Lebenszyklus von Instrumenten und Corporate Actions).",
+            "Description": "In einem stabilen Team aus erfahrenen Consultants habe ich zur Flexibilität und Robustheit der Software beigetragen, indem wir architektonische Entscheidungen getroffen haben, die langfristig wirkten. Unser Fokus lag auf der Erweiterung der Funktionalität eines komplexen, missionskritischen Systems und der Qualitätssicherung, insbesondere durch die Neugestaltung von Prozessen mithilfe von Zustandsautomaten für den Lebenszyklus von Instrumenten und Corporate Actions. Technologien wie .NET Core und SQL Server kamen dabei zum Einsatz. Zusätzlich entwickelten wir eine WPF-Anwendung, die Benutzeraktionen erheblich vereinfachte. Die enge Zusammenarbeit mit anderen Teams und die Implementierung von WebAPIs ermöglichten eine reibungslose Kommunikation zwischen verschiedenen Systemen. Zudem haben wir eine CI/CD-Pipeline aufgebaut und erfolgreich mit TeamCity gesteuert, um eine kontinuierliche Integration und Bereitstellung sicherzustellen. Die Software spielte eine zentrale Rolle im gesamten Prozess der Emission von Finanzprodukten und war entscheidend für den Projekterfolg.",
             "StartDate": "2020-01-01",
             "EndDate": "2023-03-31",
             "HourlyRate": 0.0,
@@ -296,7 +296,7 @@
             "ProjectType": 0,
             "Role": "Consultant - Senior Software Developer",
             "Sectors": "Banking Investment",
-            "Technologies": "Couchbase, Net framework, LinqToSql, Gitlab, Sql Server, Team city, RestApis, Elastic Search "
+            "Technologies": "Couchbase, Net framework, LinqToSql, Gitlab, Sql Server, TeamCity, RestApis, Elastic Search, .Net Core, WebAPI, Powershell"
         },
         {
             "Agency": "ITF",
@@ -304,7 +304,7 @@
             "ContractedHours": 0,
             "Customer": "Commerzbank",
             "DeliveredHours": 0,
-            "Description": "Erweiterung der Funktionalität in eine internationale Webanwendung, Anpassung interner Softwarelösungen (Legacy- und ausgereifte Software), Interaktion mit mehreren Stakeholdern (mehreren Entwicklungsteams und internationalen Verantwortlichen pro Website).",
+            "Description": "Design, Umsetzung und Release waren meine Haupttätigkeiten als Full Stack Developer. ich war verantwortlich für die Entwicklung mehrerer internationaler Websites und die komplette Begleitung neuer Features – von Prototyping bis hin zum Release. Meine Haupttätigkeit bestand in der Erweiterung der Funktionalität einer global genutzten Webanwendung sowie in der Anpassung interner Softwarelösungen, einschließlich sowohl Legacy- als auch ausgereifter Systeme. Dabei arbeitete ich eng mit mehreren Stakeholdern zusammen, darunter verschiedene Entwicklungsteams und internationale Verantwortliche für jede Website. In diesem Kontext kamen Technologien wie Angular, MVC, Redux und WebAPIs zum Einsatz. Meine Rolle erforderte eine ständige Kommunikation mit Stakeholdern weltweit, um sicherzustellen, dass die Anforderungen präzise umgesetzt und die internationalen Standards eingehalten wurden.",
             "StartDate": "2019-02-01",
             "EndDate": "2019-12-31",
             "HourlyRate": 0.0,
@@ -312,7 +312,7 @@
             "ProjectType": 0,
             "Role": "Full Stack Developer",
             "Sectors": "Banking Investment",
-            "Technologies": "Angular js, Angular 2, MVC, WebApi, WebForms, Webpack, RestApis, EntityFramework, Sql Server"
+            "Technologies": "Angular js, Angular 2, MVC, WebApi, HTML5, CSS3, LESS, SASS, JavaScript, WebForms, Webpack, RestApis, EntityFramework, Sql Server"
         },
         {
             "Agency": null,
@@ -328,7 +328,7 @@
             "ProjectType": 0,
             "Role": "Full Stack Developer / Team lead",
             "Sectors": "Media - Nachrichten",
-            "Technologies": "AngularJS, MVC5 C#, HTML5, CSS3, JavaScript (ECMA 5 + 6), Jquery, REST Api, Dapper, Moq, NUnit,, Handlebars, Node.Js, Inversion of Control (IoC), SQL Server, Elastic Search, Kibana and Loadstash"
+            "Technologies": "HTML5, CSS3, SignalR, Domain Driven Desing, JavaScript, Jquery, AJAX, Materialize, Grunt, Handlebars, Node.Js, C#, EntityFramework, PrimeNg, Moq (UnitTest), MVC5, WebApi, SOLID Principles, Inversion of Control (IoC)."
         },
         {
             "Agency": null,
@@ -344,7 +344,7 @@
             "ProjectType": 0,
             "Role": "Full Stack Developer",
             "Sectors": "Recruiting",
-            "Technologies": "HTML5, CSS3, JavaScript, Jquery, AJAX, Materialize, Grunt, Handlebars, Node.Js Packages, C#, EntityFramework, Moq (UnitTest), MVC5, WebApi (HttpProtocol) SOLID Principles und Inversion of Control (IoC)."
+            "Technologies": "HTML5, CSS3, JavaScript, Jquery, AJAX, Materialize, Grunt, Handlebars, Node.Js, C#, EntityFramework, PrimeNg, Moq (UnitTest), MVC5, WebApi, SOLID Principles, Inversion of Control (IoC)."
         },
         {
             "Agency": null,
