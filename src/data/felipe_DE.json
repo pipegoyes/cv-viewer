@@ -141,106 +141,106 @@
             "sinceTheBeginning": false
         },
         {
-            "Name": "Entity Framework (incl. core)",
-            "NumberOfYearsExperience": 12,
-            "SinceTheBeginning": false
+            "name": "Entity Framework (incl. core)",
+            "numberOfYearsExperience": 12,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "Dapper",
-            "NumberOfYearsExperience": 5,
-            "SinceTheBeginning": false
+            "name": "Dapper",
+            "numberOfYearsExperience": 5,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "DAPR",
-            "NumberOfYearsExperience": 2,
-            "SinceTheBeginning": false
+            "name": "DAPR",
+            "numberOfYearsExperience": 2,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "Angular (JS and further)",
-            "NumberOfYearsExperience": 6,
-            "SinceTheBeginning": false
+            "name": "Angular (JS and further)",
+            "numberOfYearsExperience": 6,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "Azure Cloud",
-            "NumberOfYearsExperience": 6,
-            "SinceTheBeginning": false
+            "name": "Azure Cloud",
+            "numberOfYearsExperience": 6,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "Amazon Web Services (AWS)",
-            "NumberOfYearsExperience": 3,
-            "SinceTheBeginning": false
+            "name": "Amazon Web Services (AWS)",
+            "numberOfYearsExperience": 3,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "React",
-            "NumberOfYearsExperience": 1,
-            "SinceTheBeginning": false
+            "name": "React",
+            "numberOfYearsExperience": 1,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "WPF",
-            "NumberOfYearsExperience": 6,
-            "SinceTheBeginning": false
+            "name": "WPF",
+            "numberOfYearsExperience": 6,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "WCF",
-            "NumberOfYearsExperience": 6,
-            "SinceTheBeginning": false
+            "name": "WCF",
+            "numberOfYearsExperience": 6,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "Redis",
-            "NumberOfYearsExperience": 6,
-            "SinceTheBeginning": false
+            "name": "Redis",
+            "numberOfYearsExperience": 6,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "Microsoft SQL",
-            "NumberOfYearsExperience": 10,
-            "SinceTheBeginning": false
+            "name": "Microsoft SQL",
+            "numberOfYearsExperience": 10,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "MySQL",
-            "NumberOfYearsExperience": 10,
-            "SinceTheBeginning": false
+            "name": "MySQL",
+            "numberOfYearsExperience": 10,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "Oracle Database",
-            "NumberOfYearsExperience": 5,
-            "SinceTheBeginning": false
+            "name": "Oracle Database",
+            "numberOfYearsExperience": 5,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "MVC",
-            "NumberOfYearsExperience": 6,
-            "SinceTheBeginning": false
+            "name": "MVC",
+            "numberOfYearsExperience": 6,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "Web API",
-            "NumberOfYearsExperience": 6,
-            "SinceTheBeginning": false
+            "name": "Web API",
+            "numberOfYearsExperience": 6,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "Vue",
-            "NumberOfYearsExperience": 2,
-            "SinceTheBeginning": false
+            "name": "Vue",
+            "numberOfYearsExperience": 2,
+            "sinceTheBeginning": false
         },
         {
-            "Name": "Terraform",
-            "NumberOfYearsExperience": 2,
-            "SinceTheBeginning": false
+            "name": "Terraform",
+            "numberOfYearsExperience": 2,
+            "sinceTheBeginning": false
         }
     ],
     "languages": [
         {
             "Name": "Spanisch",
             "NumberOfYearsExperience": 100,
-            "SinceTheBeginning": true
+            "sinceTheBeginning": true
         },
         {
             "Name": "Deutsch",
             "NumberOfYearsExperience": 80,
-            "SinceTheBeginning": false
+            "sinceTheBeginning": false
         },
         {
             "Name": "Englisch",
             "NumberOfYearsExperience": 80,
-            "SinceTheBeginning": false
+            "sinceTheBeginning": false
         }
     ],
     "programmingLanguages": [

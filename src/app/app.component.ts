@@ -36,6 +36,11 @@ export class AppComponent {
           icon: 'pi pi-plus', 
           routerLink: "/projects"
       },
+      {
+        label: 'Technologies',
+        icon: 'pi pi-plus', 
+        routerLink: "/techs"
+    },
   ]
     this.expirenceItems = [
       {

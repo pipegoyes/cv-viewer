@@ -22,8 +22,6 @@ export interface Framework {
     name?:                    string;
     numberOfYearsExperience?: number;
     sinceTheBeginning?:       boolean;
-    Name?:                    string;
-    NumberOfYearsExperience?: number;
     SinceTheBeginning?:       boolean;
 }
 
