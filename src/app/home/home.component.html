@@ -11,7 +11,13 @@
     <div class="grid">
         <div class="col">
             <p-card header="Sprachen">
-                <div *ngFor="let language of languages" class="col">{{language.Name}}</div>
+                <div *ngFor="let language of languages" class="col">
+                    <div>{{language.Name}}</div>
+                    <p-progressBar [value]="language.NumberOfYearsExperience" [style]="{ height: '6px' }">
+                        <ng-template pTemplate="content"></ng-template>
+                    </p-progressBar>
+                </div>
+                
             </p-card>
         </div>
 

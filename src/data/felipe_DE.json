@@ -1,9 +1,9 @@
 ﻿{
     "name": "Felipe Goyes",
-    "headline": "Senior Full Stack Developer",
+    "headline": "Senior Full Stack Developer | IT Consultant | .Net/C# | 12+ Jahre",
     "email": "f.goyes@bojsen.eu",
     "profilePicturePath": "felipe.jpg",
-    "executiveSummary": "Senior Software Engineer mit über 10 Jahren umfassender Erfahrung in der Softwareentwicklung, der eine nachweisliche Erfolgsbilanz bei der Bereitstellung hochwertiger Lösungen in verschiedenen Bereichen, einschließlich Backend-Systeme und Websites, vorweisen kann. Erfahren in der Leitung agiler Projekte und der Führung von Entwicklungsteams, mit einem starken Fokus auf die Förderung von Zusammenarbeit und die effiziente Erreichung von Projektzielen.",
+    "executiveSummary": "Senior Software Engineer mit über 12 Jahren umfassender Erfahrung in der Softwareentwicklung, der eine nachweisliche Erfolgsbilanz bei der Bereitstellung hochwertiger Lösungen in verschiedenen Bereichen, einschließlich Backend-Systeme und Websites, vorweisen kann. Erfahren in der Leitung agiler Projekte und der Führung von Entwicklungsteams, mit einem starken Fokus auf die Förderung von Zusammenarbeit und die effiziente Erreichung von Projektzielen.",
     "phone": "+49 163 249 5024",
     "location": "Mainz",
     "highestEducation": "Diplom Software Engineering",
@@ -229,17 +229,17 @@
     "languages": [
         {
             "Name": "Spanisch",
-            "NumberOfYearsExperience": 20,
+            "NumberOfYearsExperience": 100,
             "SinceTheBeginning": true
         },
         {
             "Name": "Deutsch",
-            "NumberOfYearsExperience": 10,
+            "NumberOfYearsExperience": 80,
             "SinceTheBeginning": false
         },
         {
             "Name": "Englisch",
-            "NumberOfYearsExperience": 8,
+            "NumberOfYearsExperience": 80,
             "SinceTheBeginning": false
         }
     ],

@@ -3,11 +3,12 @@ import { CardModule } from 'primeng/card';
 import { PersonService } from '../person.service';
 import { Language, ProjectMethodologie } from '../../domain/person';
 import { CommonModule } from '@angular/common';
+import { ProgressBarModule } from 'primeng/progressbar';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CardModule, CommonModule],
+  imports: [CardModule, CommonModule, ProgressBarModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
