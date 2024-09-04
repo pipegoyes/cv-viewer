@@ -1,0 +1,55 @@
+{
+    "routes": [
+      {
+        "route": "/de/*",
+        "rewrite": "/de/index.html",
+        "statusCode": 200
+      },
+      {
+        "route": "/en-US/*",
+        "rewrite": "/en-US/index.html",
+        "statusCode": 200
+      },
+      {
+        "route": "/",
+        "allowedRoles": ["anonymous"],
+        "statusCode": 302,
+        "headers": {
+          "x-msw-language": "{header.Accept-Language}"
+        }
+      },
+      {
+        "route": "/",
+        "redirect": "/de/",
+        "statusCode": 302,
+        "headers": {
+          "x-msw-language": "{header.Accept-Language}",
+          "x-msw-check-language": "^de"
+        }
+      },
+      {
+        "route": "/",
+        "redirect": "/en/",
+        "statusCode": 302,
+        "headers": {
+          "x-msw-language": "{header.Accept-Language}",
+          "x-msw-check-language": "^en"
+        }
+      },
+      {
+        "route": "/",
+        "redirect": "/en/",
+        "statusCode": 302,
+        "headers": {
+          "x-msw-language": "{header.Accept-Language}",
+          "x-msw-check-language": "!^en"
+        }
+      },
+      {
+        "route": "/*",
+        "rewrite": "/index.html",
+        "statusCode": 200
+      }
+    ]
+  }
+  
