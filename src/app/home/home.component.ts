@@ -4,6 +4,7 @@ import { PersonService } from '../person.service';
 import { Language, ProjectMethodologie } from '../../domain/person';
 import { CommonModule } from '@angular/common';
 import { ProgressBarModule } from 'primeng/progressbar';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-home',
@@ -24,7 +25,7 @@ export class HomeComponent {
   }
 
   ngOnInit(){
-    this.personService.getPerson("felipe", "DE").subscribe(data =>{
+    this.personService.getPerson(environment.person).subscribe(data =>{
       this.languages = data.languages
       this.projectMethodologies = data.projectManagementMethodologies
       this.certifications = data.certifications

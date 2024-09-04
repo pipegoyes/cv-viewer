@@ -22,7 +22,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "localize": ["de"],
+            "localize": ["de", "en-US"],
             "outputPath": "dist/cv-viewer",
             "index": "src/index.html",
             "browser": "src/main.ts",

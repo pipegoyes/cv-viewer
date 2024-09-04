@@ -4,6 +4,7 @@ import { PersonService } from '../person.service';
 import { Framework } from '../../domain/person';
 import { ProgressBarModule } from 'primeng/progressbar';
 import { CommonModule } from '@angular/common';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-techs',
@@ -23,7 +24,7 @@ export class TechsComponent {
   }
 
   ngOnInit(){
-    this.personService.getPerson("felipe", "DE").subscribe(data =>{
+    this.personService.getPerson(environment.person).subscribe(data =>{
       this.frameworks = data.frameworks?.sort((a,b) => b.numberOfYearsExperience! - a.numberOfYearsExperience!);
     })
   }

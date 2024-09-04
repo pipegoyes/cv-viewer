@@ -2,6 +2,34 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="7091571651222742304" datatype="html">
+        <source>Projects</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="152625797886681940" datatype="html">
+        <source>Technologies</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3398353192845179101" datatype="html">
+        <source>Experience</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6912565884588961035" datatype="html">
+        <source>Mobile <x id="menu_item_mobile" equiv-text="s.phone"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="4614429261719490292" datatype="html">
         <source>Languages</source>
         <context-group purpose="location">
@@ -28,6 +56,13 @@
         </context-group>
         <note priority="1" from="description">Certificates card title</note>
         <note priority="1" from="meaning">Certificates card title</note>
+      </trans-unit>
+      <trans-unit id="3330810211668185399" datatype="html">
+        <source>till</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="497276789250290979" datatype="html">
         <source>Frameworks and Languages</source>

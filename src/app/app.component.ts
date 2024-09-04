@@ -32,32 +32,33 @@ export class AppComponent {
   constructor(public personService: PersonService){
     this.projectItems = [
       {
-          label: '$localize `Projects ${menu-item-projects}`',
+          label: $localize `Projects`,
           icon: 'pi pi-plus', 
           routerLink: "/projects"
       },
       {
-        label: '$localize `Technologies ${menu-item-technologies}`',
+        label: $localize `Technologies`,
         icon: 'pi pi-plus', 
         routerLink: "/techs"
     },
   ]
     this.expirenceItems = [
       {
-          label: '$localize `Experience ${menu-item-experience}`',
+          label: $localize `Experience`,
           items: this.projectItems
       }]
 
   }
 
   ngOnInit(){
-     this.person$ = this.personService.getPerson("felipe", "DE");
+     this.person$ = this.personService.getPerson(environment.person);
 
      this.person$.subscribe(s => {
+      var mobileLabel = $localize `Mobile ${s.phone}:menu_item_mobile:`;
       this.contactItems = [
         { label: s.location, icon: 'pi pi-home' },
         { label: s.email, icon: 'pi pi-envelope' },
-        { label: '$localize `Mobile ${menu-item-Mobile}`:'+ s.phone, icon: 'pi pi-phone' }
+        { label: mobileLabel, icon: 'pi pi-phone' }
       ]
      })
   }
