@@ -32,19 +32,19 @@ export class AppComponent {
   constructor(public personService: PersonService){
     this.projectItems = [
       {
-          label: 'Projekten',
+          label: '$localize `Projects ${menu-item-projects}`',
           icon: 'pi pi-plus', 
           routerLink: "/projects"
       },
       {
-        label: 'Technologies',
+        label: '$localize `Technologies ${menu-item-technologies}`',
         icon: 'pi pi-plus', 
         routerLink: "/techs"
     },
   ]
     this.expirenceItems = [
       {
-          label: 'Erfahrung',
+          label: '$localize `Experience ${menu-item-experience}`',
           items: this.projectItems
       }]
 
@@ -57,7 +57,7 @@ export class AppComponent {
       this.contactItems = [
         { label: s.location, icon: 'pi pi-home' },
         { label: s.email, icon: 'pi pi-envelope' },
-        { label: 'Mobile:'+ s.phone, icon: 'pi pi-phone' }
+        { label: '$localize `Mobile ${menu-item-Mobile}`:'+ s.phone, icon: 'pi pi-phone' }
       ]
      })
   }
