@@ -1,7 +1,7 @@
 {
   "routes": [
       {
-          "route": "*.{js,json,css,jpg,png,ico,webmanifest}"
+          "route": "*.{js,json,css,jpg,png,ico,webmanifest,woff,woff2,ttf,otf}"
       },
       {
           "route": "/index.html",
