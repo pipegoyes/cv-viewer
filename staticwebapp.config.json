@@ -1,48 +1,19 @@
 {
-    "routes": [
+  "routes": [
       {
-        "route": "/de/*",
-        "rewrite": "/de/index.html"
+          "route": "*.{js,json,css,jpg,png,ico,webmanifest}"
       },
       {
-        "route": "/en-US/*",
-        "rewrite": "/en-US/index.html"
+          "route": "/index.html",
+          "rewrite": "/en-US/index.html"
       },
       {
-        "route": "/",
-        "allowedRoles": ["anonymous"],
-        "headers": {
-          "x-msw-language": "{header.Accept-Language}"
-        }
+          "route": "/en-US/*",
+          "rewrite": "/en-US/index.html"
       },
       {
-        "route": "/",
-        "redirect": "/de/",
-        "headers": {
-          "x-msw-language": "{header.Accept-Language}",
-          "x-msw-check-language": "^de"
-        }
-      },
-      {
-        "route": "/",
-        "redirect": "/en/",
-        "headers": {
-          "x-msw-language": "{header.Accept-Language}",
-          "x-msw-check-language": "^en"
-        }
-      },
-      {
-        "route": "/",
-        "redirect": "/en/",
-        "headers": {
-          "x-msw-language": "{header.Accept-Language}",
-          "x-msw-check-language": "!^en"
-        }
-      },
-      {
-        "route": "/*",
-        "rewrite": "/en-US/index.html"
+          "route": "/de/*",
+          "rewrite": "/de/index.html"
       }
-    ]
-  }
-  
+  ]
+}
