@@ -1,4 +1,4 @@
-name: Azure Static Web Apps CI/CD
+name: build-deploy
 
 on:
   push:
@@ -29,6 +29,8 @@ jobs:
           app_location: "/" # App source code path
           output_location: "dist/cv-viewer/browser"
           app_build_command: "npm run release"
+        env:
+          DISABLE_CHECKERS: true
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
