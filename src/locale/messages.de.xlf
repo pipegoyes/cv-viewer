@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7091571651222742304" datatype="html">
+        <source>Projects</source>
+        <target>Projekten</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="152625797886681940" datatype="html">
+        <source>Technologies</source>
+        <target>Technologien</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3398353192845179101" datatype="html">
+        <source>Experience</source>
+        <target>Erfahrung</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6912565884588961035" datatype="html">
+        <source>Mobile <x id="menu_item_mobile" equiv-text="s.phone"/></source>
+        <target>Telefonnummer <x id="menu_item_mobile" equiv-text="s.phone"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4614429261719490292" datatype="html">
+        <source>Languages</source>
+        <target>Sprachen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+        <note priority="1" from="description">Languages card title</note>
+        <note priority="1" from="meaning">Languages card title</note>
+      </trans-unit>
+      <trans-unit id="3190538792614078526" datatype="html">
+        <source>Projects methodologies</source>
+        <target>Projectmethoden</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+        <note priority="1" from="description">Projects methodologies card title</note>
+        <note priority="1" from="meaning">Projects methodologies card title</note>
+      </trans-unit>
+      <trans-unit id="1977299112910662568" datatype="html">
+        <source>Certificates</source>
+        <target>Zertifizierungen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+        <note priority="1" from="description">Certificates card title</note>
+        <note priority="1" from="meaning">Certificates card title</note>
+      </trans-unit>
+      <trans-unit id="3330810211668185399" datatype="html">
+        <source>till</source>
+        <target>bis</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/projects/projects.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="497276789250290979" datatype="html">
+        <source>Frameworks and Languages</source>
+        <target>Programmiersprachen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/techs/techs.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+        <note priority="1" from="description">Frameworks card title</note>
+        <note priority="1" from="meaning">Frameworks card title</note>
+      </trans-unit>
+      <trans-unit id="953022389548488004" datatype="html">
+        <source>Years</source>
+        <target>Jahren</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/techs/techs.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,4 +1,4 @@
-name: Azure Static Web Apps CI/CD
+name: build-deploy
 
 on:
   push:
@@ -29,6 +29,9 @@ jobs:
           app_location: "/" # App source code path
           output_location: "dist/cv-viewer/browser"
           app_build_command: "npm run release"
+        env:
+          DISABLE_CHECKERS: true
+          POST_BUILD_COMMAND: echo "----- Starting post-build command" && echo "<html></html>" > dist/cv-viewer/browser/index.html
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
@@ -39,5 +42,6 @@ jobs:
         id: closepullrequest
         uses: Azure/static-web-apps-deploy@v1
         with:
+          app_location: ""
           azure_static_web_apps_api_token: ${{ secrets.AZURE_DEPLOYMENT_TOKEN }}
           action: "close"

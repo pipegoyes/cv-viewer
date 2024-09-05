@@ -229,17 +229,17 @@
     "languages": [
         {
             "Name": "Spanish",
-            "NumberOfYearsExperience": 20,
+            "NumberOfYearsExperience": 100,
             "SinceTheBeginning": true
         },
         {
             "Name": "German",
-            "NumberOfYearsExperience": 10,
+            "NumberOfYearsExperience": 80,
             "SinceTheBeginning": false
         },
         {
             "Name": "English",
-            "NumberOfYearsExperience": 8,
+            "NumberOfYearsExperience": 80,
             "SinceTheBeginning": false
         }
     ],

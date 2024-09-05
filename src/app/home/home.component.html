@@ -15,7 +15,7 @@
 <div class="col">
     <div class="grid">
         <div class="col">
-            <p-card header="Sprachen">
+            <p-card i18n-header="Languages card title|Languages card title" header="Languages">
                 <div *ngFor="let language of languages" class="col">
                     <div>{{language.Name}}</div>
                     <p-progressBar [value]="language.NumberOfYearsExperience" [style]="{ height: '6px' }">
@@ -27,7 +27,7 @@
         </div>
 
         <div class="col">
-            <p-card header="Projektmethoden">
+            <p-card i18n-header="Projects methodologies card title|Projects methodologies card title" header="Projects methodologies">
                 <div *ngFor="let pm of projectMethodologies" class="col">{{pm.name}}</div>
             </p-card>
         </div>
@@ -35,7 +35,7 @@
 </div>
 
 <div class="col">
-    <p-card header="Zertifizierung">
+    <p-card i18n-header="Certificates card title|Certificates card title" header="Certificates">
         <div *ngFor="let certification of certifications" class="col">{{certification}}</div>
     </p-card>
 </div>

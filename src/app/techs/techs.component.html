@@ -1,11 +1,11 @@
 
 <div class="col">
-    <p-card header="Frameworks and Languages">
+    <p-card i18n-header="Frameworks card title|Frameworks card title" header="Frameworks and Languages">
         <div *ngFor="let f of frameworks" class="col">
             <div class="p-1">{{f.name}}</div>
             <p-progressBar [value]="f.numberOfYearsExperience! * oneYearFactor" >
                 <ng-template pTemplate="content" let-value>
-                    	<span style="font-size: 12px;">{{value / oneYearFactor }} Jahre</span>
+                    	<span style="font-size: 12px;">{{value / oneYearFactor }} <ng-container i18n>Years</ng-container></span>
                 </ng-template>
             </p-progressBar>
         </div>
