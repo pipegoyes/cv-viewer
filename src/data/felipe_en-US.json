@@ -136,7 +136,7 @@
     ],
     "frameworks": [
         {
-            "name": ".NET (incl. core)",
+            "name": "C#/.NET (APS.Net, .NetFramework, .NetCore)",
             "numberOfYearsExperience": 12,
             "sinceTheBeginning": false
         },
@@ -178,6 +178,11 @@
         {
             "name": "WPF",
             "numberOfYearsExperience": 6,
+            "sinceTheBeginning": false
+        },
+        {
+            "name": "Blazor",
+            "numberOfYearsExperience": 2,
             "sinceTheBeginning": false
         },
         {
@@ -262,6 +267,16 @@
         {
             "Name": "SQL (PL/T)",
             "NumberOfYearsExperience": 12,
+            "SinceTheBeginning": false
+        },
+        {
+            "Name": "HTML",
+            "NumberOfYearsExperience": 6,
+            "SinceTheBeginning": false
+        },
+        {
+            "Name": "XML / XSLT",
+            "NumberOfYearsExperience": 6,
             "SinceTheBeginning": false
         }
     ],

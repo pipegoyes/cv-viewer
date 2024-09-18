@@ -1,4 +1,4 @@
-{
+﻿{
     "name": "Felipe Goyes",
     "headline": "Senior Full Stack Developer | IT Consultant | .Net/C# | 12+ Jahre",
     "email": "f.goyes@bojsen.eu",
@@ -136,7 +136,7 @@
     ],
     "frameworks": [
         {
-            "name": ".NET (incl. core)",
+            "name": "C#/.NET (APS.Net, .NetFramework, .NetCore)",
             "numberOfYearsExperience": 12,
             "sinceTheBeginning": false
         },
@@ -178,6 +178,11 @@
         {
             "name": "WPF",
             "numberOfYearsExperience": 6,
+            "sinceTheBeginning": false
+        },
+        {
+            "name": "Blazor",
+            "numberOfYearsExperience": 2,
             "sinceTheBeginning": false
         },
         {
@@ -230,17 +235,17 @@
         {
             "Name": "Spanisch",
             "NumberOfYearsExperience": 100,
-            "sinceTheBeginning": true
+            "SinceTheBeginning": true
         },
         {
             "Name": "Deutsch",
             "NumberOfYearsExperience": 80,
-            "sinceTheBeginning": false
+            "SinceTheBeginning": false
         },
         {
             "Name": "Englisch",
             "NumberOfYearsExperience": 80,
-            "sinceTheBeginning": false
+            "SinceTheBeginning": false
         }
     ],
     "programmingLanguages": [
@@ -262,6 +267,22 @@
         {
             "Name": "SQL (PL/T)",
             "NumberOfYearsExperience": 12,
+            "SinceTheBeginning": false
+        },
+        {
+            "Name": "HTML",
+            "NumberOfYearsExperience": 6,
+            "SinceTheBeginning": false
+        },
+        {
+            "Name": "XML / XSLT",
+            "NumberOfYearsExperience": 6,
+            "SinceTheBeginning": false
+        }
+        ,
+        {
+            "Name": "CSS",
+            "NumberOfYearsExperience": 5,
             "SinceTheBeginning": false
         }
     ],
