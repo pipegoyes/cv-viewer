@@ -1,14 +1,29 @@
+<div class="flex flex-column xl:flex-row">
+    <div class="col">
+        <p-card i18n-header="Frameworks card title|Frameworks card title" header="Frameworks and Languages">
+            <div *ngFor="let f of frameworks" class="col">
+                <div class="p-1">{{f.name}}</div>
+                <p-progressBar [value]="f.numberOfYearsExperience! * oneYearFactor" >
+                    <ng-template pTemplate="content" let-value>
+                            <span style="font-size: 12px;">{{value / oneYearFactor }} <ng-container i18n>Years</ng-container></span>
+                    </ng-template>
+                </p-progressBar>
+            </div>        
+        </p-card>
+    </div>
+    
+    <div class="col">
+        <p-card i18n-header="Tools" header="Tools">
+            <div *ngFor="let t of tools" class="col">
+                <div class="p-1">{{t.name}}</div>
+                <p-progressBar [value]="t.numberOfYearsExperience! * oneYearFactor" >
+                    <ng-template pTemplate="content" let-value>
+                            <span style="font-size: 12px;">{{value / oneYearFactor }} <ng-container i18n>Years</ng-container></span>
+                    </ng-template>
+                </p-progressBar>
+            </div>        
+        </p-card>
+    </div>
+    
 
-<div class="col">
-    <p-card i18n-header="Frameworks card title|Frameworks card title" header="Frameworks and Languages">
-        <div *ngFor="let f of frameworks" class="col">
-            <div class="p-1">{{f.name}}</div>
-            <p-progressBar [value]="f.numberOfYearsExperience! * oneYearFactor" >
-                <ng-template pTemplate="content" let-value>
-                    	<span style="font-size: 12px;">{{value / oneYearFactor }} <ng-container i18n>Years</ng-container></span>
-                </ng-template>
-            </p-progressBar>
-        </div>
-        
-    </p-card>
 </div>

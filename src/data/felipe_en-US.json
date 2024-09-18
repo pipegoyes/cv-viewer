@@ -88,55 +88,55 @@
             "sinceTheBeginning": false
         },
         {
-            "Name": "ElasticSearch",
-            "NumberOfYearsExperience": 3,
+            "name": "ElasticSearch",
+            "numberOfYearsExperience": 3,
             "SinceTheBeginning": false
         },
         {
-            "Name": "Github Actions",
-            "NumberOfYearsExperience": 2,
+            "name": "Github Actions",
+            "numberOfYearsExperience": 2,
             "SinceTheBeginning": false
         },
         {
-            "Name": "Gitlab CI/CD",
-            "NumberOfYearsExperience": 2,
+            "name": "Gitlab CI/CD",
+            "numberOfYearsExperience": 2,
             "SinceTheBeginning": false
         },
         {
-            "Name": "Jira",
-            "NumberOfYearsExperience": 10,
+            "name": "Jira",
+            "numberOfYearsExperience": 10,
             "SinceTheBeginning": false
         },
         {
-            "Name": "Confluence",
-            "NumberOfYearsExperience": 10,
+            "name": "Confluence",
+            "numberOfYearsExperience": 10,
             "SinceTheBeginning": false
         },
         {
-            "Name": "BitBucket",
-            "NumberOfYearsExperience": 2,
+            "name": "BitBucket",
+            "numberOfYearsExperience": 2,
             "SinceTheBeginning": false
         },
         {
-            "Name": "Camunda",
-            "NumberOfYearsExperience": 2,
+            "name": "Camunda",
+            "numberOfYearsExperience": 2,
             "SinceTheBeginning": false
         },
         {
-            "Name": "Team City",
-            "NumberOfYearsExperience": 2,
+            "name": "Team City",
+            "numberOfYearsExperience": 2,
             "SinceTheBeginning": false
         },
         {
-            "Name": "Jenkins",
-            "NumberOfYearsExperience": 2,
+            "name": "Jenkins",
+            "numberOfYearsExperience": 2,
             "SinceTheBeginning": false
         }
 
     ],
     "frameworks": [
         {
-            "name": ".NET (incl. core)",
+            "name": "C#/.NET (APS.Net, .NetFramework, .NetCore)",
             "numberOfYearsExperience": 12,
             "sinceTheBeginning": false
         },
@@ -178,6 +178,11 @@
         {
             "name": "WPF",
             "numberOfYearsExperience": 6,
+            "sinceTheBeginning": false
+        },
+        {
+            "name": "Blazor",
+            "numberOfYearsExperience": 2,
             "sinceTheBeginning": false
         },
         {
@@ -262,6 +267,16 @@
         {
             "Name": "SQL (PL/T)",
             "NumberOfYearsExperience": 12,
+            "SinceTheBeginning": false
+        },
+        {
+            "Name": "HTML",
+            "NumberOfYearsExperience": 6,
+            "SinceTheBeginning": false
+        },
+        {
+            "Name": "XML / XSLT",
+            "NumberOfYearsExperience": 6,
             "SinceTheBeginning": false
         }
     ],
