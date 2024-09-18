@@ -18,6 +18,7 @@ export class TechsComponent {
   oneYearFactor: number = 8.3; // one year in percentage when 12 years are 100%
 
   frameworks : Framework[] | undefined;
+  tools: Framework[] |undefined;
 
   constructor(private personService : PersonService){
 
@@ -25,8 +26,13 @@ export class TechsComponent {
 
   ngOnInit(){
     this.personService.getPerson(environment.person).subscribe(data =>{
-      this.frameworks = data.frameworks?.sort((a,b) => b.numberOfYearsExperience! - a.numberOfYearsExperience!);
+      this.frameworks = data.frameworks?.sort((a,b) => this.sortDescending(a, b));
+      this.tools = data.tools?.sort((a,b) => this.sortDescending(a,b))
     })
+  }
+
+  sortDescending(a : Framework ,b :Framework){
+    return b.numberOfYearsExperience! - a.numberOfYearsExperience!;
   }
 
 }
