@@ -13,7 +13,7 @@ export interface Person {
     paradigms?:                      Paradigm[];
     tools?:                          Framework[];
     frameworks?:                     Framework[];
-    languages?:                      Language[];
+    languages:                      Language[];
     programmingLanguages?:           Language[];
     projects?:                       Project[];
 }
@@ -27,7 +27,7 @@ export interface Framework {
 
 export interface Language {
     Name?:                    string;
-    NumberOfYearsExperience?: number;
+    NumberOfYearsExperience: number;
     SinceTheBeginning?:       boolean;
 }
 

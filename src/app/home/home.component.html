@@ -18,7 +18,7 @@
             <p-card i18n-header="Languages card title|Languages card title" header="Languages">
                 <div *ngFor="let language of languages" class="col">
                     <div>{{language.Name}}</div>
-                    <p-progressBar [value]="language.NumberOfYearsExperience" [style]="{ height: '6px' }">
+                    <p-progressBar [value]="(language.NumberOfYearsExperience * 100) / maxLanguagesYear" [style]="{ height: '6px' }">
                         <ng-template pTemplate="content"></ng-template>
                     </p-progressBar>
                 </div>

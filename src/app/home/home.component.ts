@@ -20,6 +20,8 @@ export class HomeComponent {
   headline: string | undefined;
   summary: string |undefined;
 
+  // represents the maximum value of years in all languages
+  maxLanguagesYear: number | any; 
   constructor(private personService : PersonService){
    
   }
@@ -27,6 +29,7 @@ export class HomeComponent {
   ngOnInit(){
     this.personService.getPerson(environment.person).subscribe(data =>{
       this.languages = data.languages
+      this.maxLanguagesYear = Math.max(...data.languages?.map(d => d.NumberOfYearsExperience));
       this.projectMethodologies = data.projectManagementMethodologies
       this.certifications = data.certifications
       this.headline = data.headline
