@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CardModule } from 'primeng/card';
 import { PersonService } from '../person.service';
-import { Language, ProjectMethodologie } from '../../domain/person';
+import { Certification, Language, ProjectMethodologie } from '../../domain/person';
 import { CommonModule } from '@angular/common';
 import { ProgressBarModule } from 'primeng/progressbar';
 import { environment } from '../../environments/environment';
@@ -16,7 +16,7 @@ import { environment } from '../../environments/environment';
 export class HomeComponent {
   languages: Language[] | any;
   projectMethodologies: ProjectMethodologie[] | any;
-  certifications: string[] | any
+  certifications: Certification[] | any
   headline: string | undefined;
   summary: string |undefined;
 
