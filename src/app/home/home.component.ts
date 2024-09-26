@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CardModule } from 'primeng/card';
 import { PersonService } from '../person.service';
-import { Language, ProjectMethodologie } from '../../domain/person';
+import { Certification, Language, ProjectMethodologie } from '../../domain/person';
 import { CommonModule } from '@angular/common';
 import { ProgressBarModule } from 'primeng/progressbar';
 import { environment } from '../../environments/environment';
@@ -16,10 +16,12 @@ import { environment } from '../../environments/environment';
 export class HomeComponent {
   languages: Language[] | any;
   projectMethodologies: ProjectMethodologie[] | any;
-  certifications: string[] | any
+  certifications: Certification[] | any
   headline: string | undefined;
   summary: string |undefined;
 
+  // represents the maximum value of years in all languages
+  maxLanguagesYear: number | any; 
   constructor(private personService : PersonService){
    
   }
@@ -27,6 +29,7 @@ export class HomeComponent {
   ngOnInit(){
     this.personService.getPerson(environment.person).subscribe(data =>{
       this.languages = data.languages
+      this.maxLanguagesYear = Math.max(...data.languages?.map(d => d.NumberOfYearsExperience));
       this.projectMethodologies = data.projectManagementMethodologies
       this.certifications = data.certifications
       this.headline = data.headline

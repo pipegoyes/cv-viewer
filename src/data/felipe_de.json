@@ -1,6 +1,6 @@
 ﻿{
     "name": "Felipe Goyes",
-    "headline": "Senior Full Stack Developer | IT Consultant | .Net/C# | 12+ Jahre",
+    "headline": "Senior Full Stack Developer | Certfied Software Architect | .Net/C# | 12+ Jahre",
     "email": "f.goyes@bojsen.eu",
     "profilePicturePath": "felipe.jpg",
     "executiveSummary": "Senior Software Engineer mit über 12 Jahren umfassender Erfahrung in der Softwareentwicklung, der eine nachweisliche Erfolgsbilanz bei der Bereitstellung hochwertiger Lösungen in verschiedenen Bereichen, einschließlich Backend-Systeme und Websites, vorweisen kann. Erfahren in der Leitung agiler Projekte und der Führung von Entwicklungsteams, mit einem starken Fokus auf die Förderung von Zusammenarbeit und die effiziente Erreichung von Projektzielen.",
@@ -19,9 +19,22 @@
         }
     ],
     "certifications": [
-        "AZ-900 Azure Fundamentals",
-        "TOEFL",
-        "TELC Deutsch B2"
+        {
+            "name": "AZ-900 Azure Fundamentals",
+            "imagePath": "azureFundamentals.png"
+        },
+        {
+            "name": "TOEFL",
+            "imagePath": "toefl.png"
+        },
+        {
+            "name": "TELC Deutsch B2",
+            "imagePath": "telc.png"
+        },
+        {
+            "name": "iSAQB Software Architecture - Foundation",
+            "imagePath": "isaqb.png"
+        }
     ],
     "paradigms": [
         {
@@ -234,17 +247,17 @@
     "languages": [
         {
             "Name": "Spanisch",
-            "NumberOfYearsExperience": 100,
+            "NumberOfYearsExperience": 15,
             "SinceTheBeginning": true
         },
         {
             "Name": "Deutsch",
-            "NumberOfYearsExperience": 80,
+            "NumberOfYearsExperience": 10,
             "SinceTheBeginning": false
         },
         {
             "Name": "Englisch",
-            "NumberOfYearsExperience": 80,
+            "NumberOfYearsExperience": 5,
             "SinceTheBeginning": false
         }
     ],

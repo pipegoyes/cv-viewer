@@ -9,11 +9,11 @@ export interface Person {
     highestEducation?:               string;
     dayOfBirth?:                     string;
     projectManagementMethodologies?: ProjectMethodologie[];
-    certifications?:                 string[];
+    certifications?:                 Certification[];
     paradigms?:                      Paradigm[];
     tools?:                          Framework[];
     frameworks?:                     Framework[];
-    languages?:                      Language[];
+    languages:                      Language[];
     programmingLanguages?:           Language[];
     projects?:                       Project[];
 }
@@ -27,7 +27,7 @@ export interface Framework {
 
 export interface Language {
     Name?:                    string;
-    NumberOfYearsExperience?: number;
+    NumberOfYearsExperience: number;
     SinceTheBeginning?:       boolean;
 }
 
@@ -56,4 +56,9 @@ export interface Project {
     Role?:            string;
     Sectors?:         string;
     Technologies:     string;
+}
+
+export interface Certification {
+    name: string;
+    imagePath?: string;
 }
