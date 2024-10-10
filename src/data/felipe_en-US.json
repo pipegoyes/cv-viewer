@@ -299,7 +299,7 @@
             "ContractedHours": 0,
             "Customer": "Bojsen Consult Gmbh",
             "DeliveredHours": 0,
-            "Description": "As a Senior Software Developer and Architect, my tasks include the conception, development and release of new functionalities. With the help of state-of-the-art technologies, I have helped to make complex forms easily and digitally accessible. In addition, I documented and continuously developed our architectural decisions to make the onboarding of new employees more efficient and smooth. The result was hosted in the cloud and supported by the use of a CI/CD pipeline, which ensured fast and reliable deployment.",
+            "Description": "As a Senior Software Developer and Architect, my tasks include the conception, development and release of new functionalities. With the help of state-of-the-art technologies, I have helped to make complex medical forms easily and digitally accessible. In addition, I documented our architectural decisions to make the onboarding of new employees more efficient and smooth. The result was hosted in the cloud and supported by the use of a CI/CD pipeline, which ensured fast and reliable deployment.",
             "StartDate": "2024-08-01",
             "EndDate": null,
             "HourlyRate": 0.0,
@@ -307,7 +307,7 @@
             "ProjectType": 0,
             "Role": "Senior Full Stack Developer / Software Architect",
             "Sectors": "Health",
-            "Technologies": "Azure Storage, Docker, Cloud, .NetCore 8, Blazor, HTTP, Bootstrap 5, CSS, GitHub Actions"
+            "Technologies": "Azure Storage, Cloud, C#/.NetCore 6, Blazor, HTTPS, Bootstrap 5, CSS, GitHub Actions, Docker"
         },
         {
             "Agency": "CBTW",
