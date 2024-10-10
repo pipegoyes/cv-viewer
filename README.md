@@ -21,3 +21,7 @@ features
     ng build 
 - Deploy with swa CLI (prod)
     swa deploy .\dist\cv-viewer\browser\ --env production
+
+## Localization
+Ng Serve does not support multiple locale, in case of testing a german functionality, please delete the english one ( See angular.json (build-> options -> localize) )
+ Ex. "localize": ["de"]

@@ -16,13 +16,19 @@ import { environment } from '../../environments/environment';
 export class ProjectsComponent {
   projects: Project[] | undefined;
   till: string;
-  constructor(private personService: PersonService){
-    this.till = $localize `till`;
+  constructor(private personService: PersonService) {
+    this.till = $localize`till`;
   }
 
-  ngOnInit(){
+  ngOnInit() {
     this.personService.getPerson(environment.person).subscribe(data => {
       this.projects = data.projects;
+
+      this.projects!.forEach(p => {
+        if (!p.EndDate) {
+          p.EndDate = $localize`currently`
+        }
+      });
     })
   }
 }
