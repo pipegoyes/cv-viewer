@@ -145,7 +145,6 @@
             "numberOfYearsExperience": 2,
             "SinceTheBeginning": false
         }
-
     ],
     "frameworks": [
         {
@@ -291,8 +290,7 @@
             "Name": "XML / XSLT",
             "NumberOfYearsExperience": 6,
             "SinceTheBeginning": false
-        }
-        ,
+        },
         {
             "Name": "CSS",
             "NumberOfYearsExperience": 5,
@@ -300,6 +298,22 @@
         }
     ],
     "projects": [
+        {
+            "Agency": null,
+            "CentralElements": "Health, Cloud, Azure, Processing Documents",
+            "ContractedHours": 0,
+            "Customer": "Bojsen Consult Gmbh",
+            "DeliveredHours": 0,
+            "Description": "Als Senior Software Developer und Architekt gehören zu meinen Aufgaben die Konzeption, Entwicklung und Veröffentlichung neuer Funktionalitäten. Mit Hilfe modernster Technologien habe ich dazu beigetragen, komplexe Formulare einfach und digital zugänglich zu machen. Darüber hinaus habe ich unsere architektonischen Entscheidungen dokumentiert und kontinuierlich weiterentwickelt, um das Onboarding neuer Mitarbeiter effizienter und reibungsloser zu gestalten. Das Ergebnis wurde in der Cloud gehostet und durch den Einsatz einer CI/CD-Pipeline unterstützt, was eine schnelle und zuverlässige Bereitstellung sicherstellte.",
+            "StartDate": "2024-08-01",
+            "EndDate": null,
+            "HourlyRate": 0.0,
+            "ProjectName": "Medical Forms",
+            "ProjectType": 0,
+            "Role": "Senior Full Stack Developer / Software Architect",
+            "Sectors": "Health",
+            "Technologies": "Azure Storage, Cloud, C#/.NetCore 6, Blazor, HTTPS, Bootstrap 5, CSS, GitHub Actions, Docker"
+        },
         {
             "Agency": "CBTW",
             "CentralElements": "Enterprise Software Development, Consulting, Coaching",
