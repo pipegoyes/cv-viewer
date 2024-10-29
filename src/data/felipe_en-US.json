@@ -1,473 +1,511 @@
-﻿{
-    "name": "Felipe Goyes",
-    "headline": "Senior Full Stack Developer | Certified Software Architect | .Net/C# | 12+ Years",
-    "email": "f.goyes@bojsen.eu",
-    "profilePicturePath": "felipe.jpg",
-    "executiveSummary": "Senior Software Engineer with over 12 years of extensive experience in software development, demonstrating a proven track record in delivering high-quality solutions across various domains, including backend systems and websites. Adept at leading agile projects and guiding development teams, with a strong focus on fostering collaboration and achieving project goals efficiently.",
-    "phone": "+49 163 249 5024",
-    "location": "Mainz",
-    "highestEducation": "Diplom Software Engineering",
-    "dayOfBirth": "1989-01-03",
-    "projectManagementMethodologies": [
-        {
-            "name": "SCRUM",
-            "numberOfYearsExperience": 10
-        },
-        {
-            "name": "Kanban",
-            "numberOfYearsExperience": 2
-        }
-    ],
-    "certifications": [
-        {
-            "name": "AZ-900 Azure Fundamentals",
-            "imagePath": "azureFundamentals.png"
-        },
-        {
-            "name": "TOEFL",
-            "imagePath": "toefl.png"
-        },
-        {
-            "name": "TELC German B2",
-            "imagePath": "telc.png"
-        },
-        {
-            "name": "iSAQB Software Architecture - Foundation",
-            "imagePath": "isaqb.png"
-        }
-    ],
-    "paradigms": [
-        {
-            "name": "SOLID Principles",
-            "numberOfYearsExperience": 12
-        },
-        {
-            "name": "Clean Code",
-            "numberOfYearsExperience": 12
-        },
-        {
-            "name": "Design Patterns",
-            "numberOfYearsExperience": 12
-        },
-        {
-            "name": "Unit Tests",
-            "numberOfYearsExperience": 12
-        },
-        {
-            "name": "Integration Tests",
-            "numberOfYearsExperience": 12
-        },
-        {
-            "name": "Continuous Integration",
-            "numberOfYearsExperience": 12
-        },
-        {
-            "name": "Continuous Delivery",
-            "numberOfYearsExperience": 12
-        },
-        {
-            "name": "Infrastructure as Code",
-            "numberOfYearsExperience": 3
-        },
-        {
-            "name": "Test-Driven-Development",
-            "numberOfYearsExperience": 7
-        }
-    ],
-    "tools": [
-        {
-            "name": "Visual Studio",
-            "numberOfYearsExperience": 12,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Visual Studio Code",
-            "numberOfYearsExperience": 12,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "GIT",
-            "numberOfYearsExperience": 7,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Eclipse",
-            "numberOfYearsExperience": 2,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Docker",
-            "numberOfYearsExperience": 7,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "ElasticSearch",
-            "numberOfYearsExperience": 3,
-            "SinceTheBeginning": false
-        },
-        {
-            "name": "Github Actions",
-            "numberOfYearsExperience": 2,
-            "SinceTheBeginning": false
-        },
-        {
-            "name": "Gitlab CI/CD",
-            "numberOfYearsExperience": 2,
-            "SinceTheBeginning": false
-        },
-        {
-            "name": "Jira",
-            "numberOfYearsExperience": 10,
-            "SinceTheBeginning": false
-        },
-        {
-            "name": "Confluence",
-            "numberOfYearsExperience": 10,
-            "SinceTheBeginning": false
-        },
-        {
-            "name": "BitBucket",
-            "numberOfYearsExperience": 2,
-            "SinceTheBeginning": false
-        },
-        {
-            "name": "Camunda",
-            "numberOfYearsExperience": 2,
-            "SinceTheBeginning": false
-        },
-        {
-            "name": "Team City",
-            "numberOfYearsExperience": 2,
-            "SinceTheBeginning": false
-        },
-        {
-            "name": "Jenkins",
-            "numberOfYearsExperience": 2,
-            "SinceTheBeginning": false
-        }
-    ],
-    "frameworks": [
-        {
-            "name": "C#/.NET (APS.Net, .NetFramework, .NetCore)",
-            "numberOfYearsExperience": 12,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Entity Framework (incl. core)",
-            "numberOfYearsExperience": 12,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Dapper",
-            "numberOfYearsExperience": 5,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "DAPR",
-            "numberOfYearsExperience": 2,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Angular (JS and further)",
-            "numberOfYearsExperience": 6,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Azure Cloud",
-            "numberOfYearsExperience": 6,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Amazon Web Services (AWS)",
-            "numberOfYearsExperience": 3,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "React",
-            "numberOfYearsExperience": 1,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "WPF",
-            "numberOfYearsExperience": 6,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Blazor",
-            "numberOfYearsExperience": 2,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "WCF",
-            "numberOfYearsExperience": 6,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Redis",
-            "numberOfYearsExperience": 6,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Microsoft SQL",
-            "numberOfYearsExperience": 10,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "MySQL",
-            "numberOfYearsExperience": 10,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Oracle Database",
-            "numberOfYearsExperience": 5,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "MVC",
-            "numberOfYearsExperience": 6,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Web API",
-            "numberOfYearsExperience": 6,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Vue",
-            "numberOfYearsExperience": 2,
-            "sinceTheBeginning": false
-        },
-        {
-            "name": "Terraform",
-            "numberOfYearsExperience": 2,
-            "sinceTheBeginning": false
-        }
-    ],
-    "languages": [
-        {
-            "Name": "Spanish",
-            "NumberOfYearsExperience": 15,
-            "SinceTheBeginning": true
-        },
-        {
-            "Name": "German",
-            "NumberOfYearsExperience": 13,
-            "SinceTheBeginning": false
-        },
-        {
-            "Name": "English",
-            "NumberOfYearsExperience": 11,
-            "SinceTheBeginning": false
-        }
-    ],
-    "programmingLanguages": [
-        {
-            "Name": "C#",
-            "NumberOfYearsExperience": 12,
-            "SinceTheBeginning": false
-        },
-        {
-            "Name": "Javascript",
-            "NumberOfYearsExperience": 5,
-            "SinceTheBeginning": false
-        },
-        {
-            "Name": "Typescript",
-            "NumberOfYearsExperience": 5,
-            "SinceTheBeginning": false
-        },
-        {
-            "Name": "SQL (PL/T)",
-            "NumberOfYearsExperience": 12,
-            "SinceTheBeginning": false
-        },
-        {
-            "Name": "HTML",
-            "NumberOfYearsExperience": 6,
-            "SinceTheBeginning": false
-        },
-        {
-            "Name": "XML / XSLT",
-            "NumberOfYearsExperience": 6,
-            "SinceTheBeginning": false
-        }
-    ],
-    "projects": [
-        {
-            "Agency": null,
-            "CentralElements": "Health, Cloud, Azure, Processing Documents",
-            "ContractedHours": 0,
-            "Customer": "Bojsen Consult Gmbh",
-            "DeliveredHours": 0,
-            "Description": "As a Senior Software Developer and Architect, my tasks include the conception, development and release of new functionalities. With the help of state-of-the-art technologies, I have helped to make complex medical forms easily and digitally accessible. In addition, I documented our architectural decisions to make the onboarding of new employees more efficient and smooth. The result was hosted in the cloud and supported by the use of a CI/CD pipeline, which ensured fast and reliable deployment.",
-            "StartDate": "2024-08-01",
-            "EndDate": null,
-            "HourlyRate": 0.0,
-            "ProjectName": "Medical Forms",
-            "ProjectType": 0,
-            "Role": "Senior Full Stack Developer / Software Architect",
-            "Sectors": "Health",
-            "Technologies": "Azure Storage, Cloud, C#/.NetCore 6, Blazor, HTTPS, Bootstrap 5, CSS, GitHub Actions, Docker"
-        },
-        {
-            "Agency": "CBTW",
-            "CentralElements": "Enterprise Software Development, Consulting, Coaching",
-            "ContractedHours": 0,
-            "Customer": "LBBW",
-            "DeliveredHours": 0,
-            "Description": "As a senior software developer, I was actively involved in the backend team and successfully used technologies such as Entity Framework Core, Camunda and SQL Server. Together with the business, I identified the right requirements and integrated them into the development of new features, always with a focus on high speed and quality. My involvement in architectural decisions and the implementation of software best practices and Scrum in the project contributed significantly to the successful implementation. Quality was ensured through the use of unit tests and integration tests. I also supported my colleagues through coaching to achieve the sprint goals. Through close communication with stakeholders and project management, I contributed to the achievement of long-term milestones. In a highly complex software project that included three development teams and over 30 people involved, I was able to make a significant contribution to the success of the project.",
-            "StartDate": "2023-04-01",
-            "EndDate": "2024-07-31",
-            "HourlyRate": 0.0,
-            "ProjectName": "Maria - Markt Risiko Berechnung",
-            "ProjectType": 0,
-            "Role": "Senior Software Developer / Team Lead",
-            "Sectors": "Banking",
-            "Technologies": "Camunda, Jira, Confluence, Jenkins, Bitbuket, SQL Server, Net Core 6, Entity Framework"
-        },
-        {
-            "Agency": "ITF",
-            "CentralElements": "Enterprise Software development, Consulting",
-            "ContractedHours": 0,
-            "Customer": "Societe Generale",
-            "DeliveredHours": 0,
-            "Description": "In a stable team of experienced consultants, I contributed to the flexibility and robustness of the software by making architectural decisions that had a long-term impact. Our focus was on extending the functionality of a complex, mission-critical system and quality assurance, in particular by redesigning processes using state machines for the lifecycle of instruments and corporate actions. Technologies such as .NET Core and SQL Server were used. In addition, we developed a WPF application that significantly simplified user actions. Close collaboration with other teams and the implementation of WebAPIs enabled smooth communication between different systems. In addition, we built a CI/CD pipeline and successfully managed it with TeamCity to ensure continuous integration and delivery. The software played a central role in the entire process of issuing financial products and was crucial to the project's success.",
-            "StartDate": "2020-01-01",
-            "EndDate": "2023-03-31",
-            "HourlyRate": 0.0,
-            "ProjectName": "FBI - Flow Baskets Instruments",
-            "ProjectType": 0,
-            "Role": "Consultant - Senior Software Developer",
-            "Sectors": "Banking Investment",
-            "Technologies": "Couchbase, Net framework, LinqToSql, Gitlab, Sql Server, TeamCity, RestApis, Elastic Search, .Net Core, WebAPI, Powershell"
-        },
-        {
-            "Agency": "ITF",
-            "CentralElements": "Web development, Coaching",
-            "ContractedHours": 0,
-            "Customer": "Commerzbank",
-            "DeliveredHours": 0,
-            "Description": "Design, implementation and release were my main activities as a full stack developer. I was responsible for the development of several international websites and the complete support of new features - from prototyping to release. My main activity was to extend the functionality of a globally used web application and to adapt internal software solutions, including both legacy and mature systems. I worked closely with several stakeholders, including different development teams and international managers for each website. In this context, technologies such as Angular, MVC, Redux and WebAPIs were used. My role required constant communication with stakeholders worldwide to ensure that the requirements were implemented precisely and international standards were adhered to.",
-            "StartDate": "2019-02-01",
-            "EndDate": "2019-12-31",
-            "HourlyRate": 0.0,
-            "ProjectName": "Warrants Websites",
-            "ProjectType": 0,
-            "Role": "Full Stack Developer",
-            "Sectors": "Banking Investment",
-            "Technologies": "Angular js, Angular 2, MVC, WebApi, HTML5, CSS3, LESS, SASS, JavaScript, WebForms, Webpack, RestApis, EntityFramework, Sql Server"
-        },
-        {
-            "Agency": null,
-            "CentralElements": "Web development, Start up",
-            "ContractedHours": 0,
-            "Customer": "Merkurist",
-            "DeliveredHours": 0,
-            "Description": "As a member of an agile team that practiced SCRUM, I was responsible for developing the Single Page Application with AngularJS connected to Azure Cloud Services, applying SOLID principles and Clean Code for 24/7 availability. Another focus was coaching and mentoring junior developers.",
-            "StartDate": "2017-04-01",
-            "EndDate": "2019-01-31",
-            "HourlyRate": 0.0,
-            "ProjectName": "Web Application and administration tools",
-            "ProjectType": 0,
-            "Role": "Full Stack Developer / Team lead",
-            "Sectors": "Media - News",
-            "Technologies": "HTML5, CSS3, SignalR, Domain Driven Desing, JavaScript, Jquery, AJAX, Materialize, Grunt, Handlebars, Node.Js, C#, EntityFramework, PrimeNg, Moq (UnitTest), MVC5, WebApi, SOLID Principles, Inversion of Control (IoC)."
-        },
-        {
-            "Agency": null,
-            "CentralElements": "Web development, In-House Software development",
-            "ContractedHours": 0,
-            "Customer": "Goetzfried",
-            "DeliveredHours": 0,
-            "Description": "I was responsible for various web applications, planning and developing them to optimally support the company's processes. Close collaboration with the specialist department enabled me to correctly implement the requirements and deliver user-friendly applications.",
-            "StartDate": "2015-09-01",
-            "EndDate": "2017-03-31",
-            "HourlyRate": 0.0,
-            "ProjectName": "Goetzfried Cockpit and WebSites",
-            "ProjectType": 0,
-            "Role": "Full Stack Developer",
-            "Sectors": "Recruiting",
-            "Technologies": "HTML5, CSS3, JavaScript, Jquery, AJAX, Materialize, Grunt, Handlebars, Node.Js, C#, EntityFramework, PrimeNg, Moq (UnitTest), MVC5, WebApi, SOLID Principles, Inversion of Control (IoC)."
-        },
-        {
-            "Agency": null,
-            "CentralElements": "Web development, In-House Software development",
-            "ContractedHours": 0,
-            "Customer": "Job Frame",
-            "DeliveredHours": 0,
-            "Description": "I was independently responsible for migrating the existing time tracking application to a new technology stack. It was important to maintain external interfaces and optimize performance by introducing WCF services.",
-            "StartDate": "2014-06-01",
-            "EndDate": "2015-08-31",
-            "HourlyRate": 0.0,
-            "ProjectName": "Schnittstellen und Timeboard.",
-            "ProjectType": 0,
-            "Role": "Full Stack Developer",
-            "Sectors": "Time recording",
-            "Technologies": "C#, WebForms, AJAX, HTML, WCF, XSLT, XPath, XML, SQL. IIS, LinQ, LamdaExpresions und Entity Framework"
-        },
-        {
-            "Agency": null,
-            "CentralElements": "Enterprise software development",
-            "ContractedHours": 0,
-            "Customer": "Unisys",
-            "DeliveredHours": 0,
-            "Description": "Design, development and implementation of requirements in the bank system using always the best technologies for .Net Platform such as JQuery, AjaxToolkit, CSS3, Entity Framework and LinQ",
-            "StartDate": "2013-03-01",
-            "EndDate": "2014-05-31",
-            "HourlyRate": 0.0,
-            "ProjectName": "Transactor and Web App",
-            "ProjectType": 0,
-            "Role": "Full Stack Developer",
-            "Sectors": "Banking",
-            "Technologies": ".Net-Plattform, JQuery, AjaxToolkit, CSS3, C#, Sql Server, Entity Framework und LinQ."
-        },
-        {
-            "Agency": null,
-            "CentralElements": "Software development",
-            "ContractedHours": 0,
-            "Customer": "Scad Colombia",
-            "DeliveredHours": 0,
-            "Description": "In charge of development projects, making innovative and technologic solutions using programing languages such as JQuery, AJAX, JavaScript and CSS in .Net’s Platform",
-            "StartDate": "2012-02-01",
-            "EndDate": "2013-03-31",
-            "HourlyRate": 0.0,
-            "ProjectName": "WebSites and OCR",
-            "ProjectType": 0,
-            "Role": "Back End Developer",
-            "Sectors": "OCR - Optical Character Recognition",
-            "Technologies": "JQuery, AJAX, JavaScript and CSS in .Net’s Platform"
-        },
-        {
-            "Agency": null,
-            "CentralElements": "Software development",
-            "ContractedHours": 0,
-            "Customer": "Fiducia IT AG",
-            "DeliveredHours": 0,
-            "Description": "Creating, implementing and developing new trends in the German Bank system with 8 members of 8 different countries some of these ideas were implemented in the mobile platform based in Objective-C",
-            "StartDate": "2010-10-01",
-            "EndDate": "2011-05-30",
-            "HourlyRate": 0.0,
-            "ProjectName": "PBox",
-            "ProjectType": 0,
-            "Role": "Developer",
-            "Sectors": "Banking innovation",
-            "Technologies": "JQuery, AJAX, JavaScript and CSS in .Net’s Platform"
-        },
-        {
-            "Agency": null,
-            "CentralElements": "Software development",
-            "ContractedHours": 0,
-            "Customer": "E-Group",
-            "DeliveredHours": 0,
-            "Description": "Design and development project about Xml using Visual Basic .Net 2008, and some tools for to transform Xml Document for example Xpath and XSL in order to obtain the specific information from original document",
-            "StartDate": "2010-01-01",
-            "EndDate": "2010-03-31",
-            "HourlyRate": 0.0,
-            "ProjectName": "Extractor XML",
-            "ProjectType": 0,
-            "Role": "Junior Developer",
-            "Sectors": "IT Consulting",
-            "Technologies": "C#, XSLT, XPATH, Json, SqlServer, LinQ and XML"
-        }
-    ]
+{
+  "headline": "Senior Full Stack Developer | Certified Software Architect  | .Net/C# | 12+ Years",
+  "name": "Felipe Goyes",
+  "executiveSummary": "Senior Software Engineer with over 12 years of extensive experience in software development, demonstrating a proven track record in delivering high-quality solutions across various domains, including backend systems and websites. Adept at leading agile projects and guiding development teams, with a strong focus on fostering collaboration and achieving project goals efficiently.",
+  "profilePicturePath": "felipe.jpg",
+  "highestEducation": "Diplom Software Engineering",
+  "email": "f.goyes@bojsen.eu",
+  "phone": "+49 163 249 5024",
+  "location": "Mainz",
+  "dayOfBirth": "1989-01-03",
+  "languages": [
+    {
+      "name": "Spanish",
+      "sinceTheBeginning": true,
+      "numberOfYearsExperience": 15
+    },
+    {
+      "name": "German",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 13
+    },
+    {
+      "name": "English",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 11
+    }
+  ],
+  "programmingLanguages": [
+    {
+      "name": "C#",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 12
+    },
+    {
+      "name": "Javascript",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 5
+    },
+    {
+      "name": "Typescript",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 5
+    },
+    {
+      "name": "SQL (PL/T)",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 12
+    },
+    {
+      "name": "HTML",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 6
+    },
+    {
+      "name": "XML / XSLT",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 6
+    },
+    {
+      "name": "CSS",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 5
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "C#/.NET (APS.Net, .NetFramework, .NetCore)",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 12
+    },
+    {
+      "name": "Entity Framework (incl. core)",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 12
+    },
+    {
+      "name": "Dapper",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 5
+    },
+    {
+      "name": "DAPR",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 2
+    },
+    {
+      "name": "Angular (JS and further)",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 6
+    },
+    {
+      "name": "Azure Cloud",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 6
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 3
+    },
+    {
+      "name": "React",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 1
+    },
+    {
+      "name": "WPF",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 6
+    },
+    {
+      "name": "Blazor",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 2
+    },
+    {
+      "name": "WCF",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 6
+    },
+    {
+      "name": "Redis",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 6
+    },
+    {
+      "name": "Microsoft SQL",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 10
+    },
+    {
+      "name": "MySQL",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 10
+    },
+    {
+      "name": "Oracle Database",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 5
+    },
+    {
+      "name": "MVC",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 6
+    },
+    {
+      "name": "Web API",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 6
+    },
+    {
+      "name": "Vue",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 2
+    },
+    {
+      "name": "Terraform",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 2
+    }
+  ],
+  "projectManagementMethodologies": [
+    {
+      "name": "SCRUM",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 10
+    },
+    {
+      "name": "Kanban",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 2
+    }
+  ],
+  "tools": [
+    {
+      "name": "Visual Studio",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 12
+    },
+    {
+      "name": "Visual Studio Code",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 12
+    },
+    {
+      "name": "GIT",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 7
+    },
+    {
+      "name": "Eclipse",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 2
+    },
+    {
+      "name": "Docker",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 7
+    },
+    {
+      "name": "ElasticSearch",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 3
+    },
+    {
+      "name": "Github Actions",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 2
+    },
+    {
+      "name": "Gitlab CI/CD",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 2
+    },
+    {
+      "name": "Jira",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 10
+    },
+    {
+      "name": "Confluence",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 10
+    },
+    {
+      "name": "BitBucket",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 2
+    },
+    {
+      "name": "Camunda",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 2
+    },
+    {
+      "name": "Team City",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 2
+    },
+    {
+      "name": "Jenkins",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 2
+    }
+  ],
+  "paradigms": [
+    {
+      "name": "SOLID Principles",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 12
+    },
+    {
+      "name": "Clean Code",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 12
+    },
+    {
+      "name": "Design Patterns",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 12
+    },
+    {
+      "name": "Unit Tests",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 12
+    },
+    {
+      "name": "Integration Tests",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 12
+    },
+    {
+      "name": "Continuous Integration",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 12
+    },
+    {
+      "name": "Continuous Delivery",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 12
+    },
+    {
+      "name": "Infrastructure as Code",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 3
+    },
+    {
+      "name": "Test-Driven-Development",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 7
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AZ-900 Azure Fundamentals",
+      "imagePath": "azureFundamentals.png"
+    },
+    {
+      "name": "TOEFL",
+      "imagePath": "toefl.png"
+    },
+    {
+      "name": "TELC German B2",
+      "imagePath": "telc.png"
+    },
+    {
+      "name": "iSAQB Software Architecture - Foundation",
+      "imagePath": "isaqb.png"
+    }
+  ],
+  "projects": [
+    {
+      "projectName": "Medical Forms",
+      "customer": "Bojsen Consult Gmbh",
+      "agency": null,
+      "projectType": 0,
+      "sectors": "Health",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Senior Full Stack Developer / Software Architect",
+      "centralElements": "Health, Cloud, Azure, Processing Documents",
+      "technologies": "Azure Storage, Cloud, C#/.NetCore 6, Blazor, HTTPS, Bootstrap 5, CSS, GitHub Actions, Docker",
+      "testimonies": [],
+      "startDate": "2024-08-01",
+      "endDate": null,
+      "period": "Aug 2024 - Present",
+      "description": "As a Senior Software Developer and Architect, my tasks include the conception, development and release of new functionalities. With the help of state-of-the-art technologies, I have helped to make complex medical forms easily and digitally accessible. In addition, I documented our architectural decisions to make the onboarding of new employees more efficient and smooth. The result was hosted in the cloud and supported by the use of a CI/CD pipeline, which ensured fast and reliable deployment."
+    },
+    {
+      "projectName": "Maria - Markt Risiko Berechnung",
+      "customer": "LBBW",
+      "agency": "CBTW",
+      "projectType": 0,
+      "sectors": "Banking",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Senior Software Developer / Team Lead",
+      "centralElements": "Enterprise Software Development, Consulting, Coaching",
+      "technologies": "Camunda, Jira, Confluence, Jenkins, Bitbuket, SQL Server, Net Core 6, Entity Framework",
+      "testimonies": [],
+      "startDate": "2023-04-01",
+      "endDate": "2024-07-31",
+      "period": "Apr 2023 - Jul 2024",
+      "description": "As a senior software developer, I was actively involved in the backend team and successfully used technologies such as Entity Framework Core, Camunda and SQL Server. Together with the business, I identified the right requirements and integrated them into the development of new features, always with a focus on high speed and quality. My involvement in architectural decisions and the implementation of software best practices and Scrum in the project contributed significantly to the successful implementation. Quality was ensured through the use of unit tests and integration tests. I also supported my colleagues through coaching to achieve the sprint goals. Through close communication with stakeholders and project management, I contributed to the achievement of long-term milestones. In a highly complex software project that included three development teams and over 30 people involved, I was able to make a significant contribution to the success of the project."
+    },
+    {
+      "projectName": "FBI - Flow Baskets Instruments",
+      "customer": "Societe Generale",
+      "agency": "ITF",
+      "projectType": 0,
+      "sectors": "Banking Investment",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Consultant - Senior Software Developer",
+      "centralElements": "Enterprise Software development, Consulting",
+      "technologies": "Couchbase, Net framework, LinqToSql, Gitlab, Sql Server, TeamCity, RestApis, Elastic Search, .Net Core, WebAPI, Powershell",
+      "testimonies": [],
+      "startDate": "2020-01-01",
+      "endDate": "2023-03-31",
+      "period": "Jan 2020 - Mär 2023",
+      "description": "In a stable team of experienced consultants, I contributed to the flexibility and robustness of the software by making architectural decisions that had a long-term impact. Our focus was on extending the functionality of a complex, mission-critical system and quality assurance, in particular by redesigning processes using state machines for the lifecycle of instruments and corporate actions. Technologies such as .NET Core and SQL Server were used. In addition, we developed a WPF application that significantly simplified user actions. Close collaboration with other teams and the implementation of WebAPIs enabled smooth communication between different systems. In addition, we built a CI/CD pipeline and successfully managed it with TeamCity to ensure continuous integration and delivery. The software played a central role in the entire process of issuing financial products and was crucial to the project's success."
+    },
+    {
+      "projectName": "Warrants Websites",
+      "customer": "Commerzbank",
+      "agency": "ITF",
+      "projectType": 0,
+      "sectors": "Banking Investment",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Full Stack Developer",
+      "centralElements": "Web development, Coaching",
+      "technologies": "Angular js, Angular 2, MVC, WebApi, HTML5, CSS3, LESS, SASS, JavaScript, WebForms, Webpack, RestApis, EntityFramework, Sql Server",
+      "testimonies": [],
+      "startDate": "2019-02-01",
+      "endDate": "2019-12-31",
+      "period": "Feb 2019 - Dez 2019",
+      "description": "Design, implementation and release were my main activities as a full stack developer. I was responsible for the development of several international websites and the complete support of new features - from prototyping to release. My main activity was to extend the functionality of a globally used web application and to adapt internal software solutions, including both legacy and mature systems. I worked closely with several stakeholders, including different development teams and international managers for each website. In this context, technologies such as Angular, MVC, Redux and WebAPIs were used. My role required constant communication with stakeholders worldwide to ensure that the requirements were implemented precisely and international standards were adhered to."
+    },
+    {
+      "projectName": "Web Application and administration tools",
+      "customer": "Merkurist",
+      "agency": null,
+      "projectType": 0,
+      "sectors": "Media - Nachrichten",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Full Stack Developer / Team lead",
+      "centralElements": "Web development, Start up",
+      "technologies": "HTML5, CSS3, SignalR, Domain Driven Desing, JavaScript, Jquery, AJAX, Materialize, Grunt, Handlebars, Node.Js, C#, EntityFramework, PrimeNg, Moq (UnitTest), MVC5, WebApi, SOLID Principles, Inversion of Control (IoC).",
+      "testimonies": [],
+      "startDate": "2017-04-01",
+      "endDate": "2019-01-31",
+      "period": "Apr 2017 - Jan 2019",
+      "description": "As a member of an agile team that practiced SCRUM, I was responsible for developing the Single Page Application with AngularJS connected to Azure Cloud Services, applying SOLID principles and Clean Code for 24/7 availability. Another focus was coaching and mentoring junior developers."
+    },
+    {
+      "projectName": "Goetzfried Cockpit and WebSites",
+      "customer": "Goetzfried",
+      "agency": null,
+      "projectType": 0,
+      "sectors": "Recruiting",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Full Stack Developer",
+      "centralElements": "Web development, In-House Software development",
+      "technologies": "HTML5, CSS3, JavaScript, Jquery, AJAX, Materialize, Grunt, Handlebars, Node.Js, C#, EntityFramework, PrimeNg, Moq (UnitTest), MVC5, WebApi, SOLID Principles, Inversion of Control (IoC).",
+      "testimonies": [],
+      "startDate": "2015-09-01",
+      "endDate": "2017-03-31",
+      "period": "Sep 2015 - Mär 2017",
+      "description": "I was responsible for various web applications, planning and developing them to optimally support the company's processes. Close collaboration with the specialist department enabled me to correctly implement the requirements and deliver user-friendly applications."
+    },
+    {
+      "projectName": "Schnittstellen und Timeboard.",
+      "customer": "Job Frame",
+      "agency": null,
+      "projectType": 0,
+      "sectors": "Zeiterfassung",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Full Stack Developer",
+      "centralElements": "Web development, In-House Software development",
+      "technologies": "C#, WebForms, AJAX, HTML, WCF, XSLT, XPath, XML, SQL. IIS, LinQ, LamdaExpresions und Entity Framework",
+      "testimonies": [],
+      "startDate": "2014-06-01",
+      "endDate": "2015-08-31",
+      "period": "Jun 2014 - Aug 2015",
+      "description": "I was independently responsible for migrating the existing time tracking application to a new technology stack. It was important to maintain external interfaces and optimize performance by introducing WCF services."
+    },
+    {
+      "projectName": "Transactor and Web App",
+      "customer": "Unisys",
+      "agency": null,
+      "projectType": 0,
+      "sectors": "Banking",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Full Stack Developer",
+      "centralElements": "Enterprise software development",
+      "technologies": ".Net-Plattform, JQuery, AjaxToolkit, CSS3, C#, Sql Server, Entity Framework und LinQ.",
+      "testimonies": [],
+      "startDate": "2013-03-01",
+      "endDate": "2014-05-31",
+      "period": "Mär 2013 - Mai 2014",
+      "description": "Design, development and implementation of requirements in the bank system using always the best technologies for .Net Platform such as JQuery, AjaxToolkit, CSS3, Entity Framework and LinQ."
+    },
+    {
+      "projectName": "WebSites and OCR",
+      "customer": "Scad Colombia",
+      "agency": null,
+      "projectType": 0,
+      "sectors": "OCR - Texterkennung",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Back End Developer",
+      "centralElements": "Software development",
+      "technologies": "JQuery, AJAX, JavaScript and CSS in .Net’s Platform",
+      "testimonies": [],
+      "startDate": "2012-02-01",
+      "endDate": "2013-03-31",
+      "period": "Feb 2012 - Mär 2013",
+      "description": "In charge of development projects, making innovative and technologic solutions using programing languages such as JQuery, AJAX, JavaScript and CSS in .Net’s Platform"
+    },
+    {
+      "projectName": "PBox",
+      "customer": "Fiducia IT AG",
+      "agency": null,
+      "projectType": 0,
+      "sectors": "Banking innovation",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Developer",
+      "centralElements": "Software development",
+      "technologies": "JQuery, AJAX, JavaScript and CSS in .Net’s Platform",
+      "testimonies": [],
+      "startDate": "2010-10-01",
+      "endDate": "2011-05-30",
+      "period": "Okt 2010 - Mai 2011",
+      "description": "Creating, implementing and developing new trends in the German Bank system with 8 members of 8 different countries some of these ideas were implemented in the mobile platform based in Objective-C"
+    },
+    {
+      "projectName": "Extractor XML",
+      "customer": "E-Group",
+      "agency": null,
+      "projectType": 0,
+      "sectors": "IT Consulting",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Junior Developer",
+      "centralElements": "Software development",
+      "technologies": "C#, XSLT, XPATH, Json, SqlServer, LinQ and XML",
+      "testimonies": [],
+      "startDate": "2010-01-01",
+      "endDate": "2010-03-31",
+      "period": "Jan 2010 - Mär 2010",
+      "description": "Design and development project about Xml using Visual Basic .Net 2008, and some tools for to transform Xml Document for example Xpath and XSL in order to obtain the specific information from original document"
+    }
+  ]
 }
