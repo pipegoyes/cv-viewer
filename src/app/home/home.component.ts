@@ -18,18 +18,18 @@ export class HomeComponent {
   projectMethodologies: ProjectMethodologie[] | any;
   certifications: Certification[] | any
   headline: string | undefined;
-  summary: string |undefined;
+  summary: string | undefined;
 
   // represents the maximum value of years in all languages
-  maxLanguagesYear: number | any; 
-  constructor(private personService : PersonService){
-   
+  maxLanguagesYear: number | any;
+  constructor(private personService: PersonService) {
+
   }
 
-  ngOnInit(){
-    this.personService.getPerson(environment.person).subscribe(data =>{
+  ngOnInit() {
+    this.personService.getPerson(environment.person).subscribe(data => {
       this.languages = data.languages
-      this.maxLanguagesYear = Math.max(...data.languages?.map(d => d.NumberOfYearsExperience));
+      this.maxLanguagesYear = Math.max(...data.languages?.map(d => d.numberOfYearsExperience));
       this.projectMethodologies = data.projectManagementMethodologies
       this.certifications = data.certifications
       this.headline = data.headline

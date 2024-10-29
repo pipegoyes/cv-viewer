@@ -25,8 +25,8 @@ export class ProjectsComponent {
       this.projects = data.projects;
 
       this.projects!.forEach(p => {
-        if (!p.EndDate) {
-          p.EndDate = $localize`currently`
+        if (!p.endDate) {
+          p.endDate = $localize`currently`
         }
       });
     })

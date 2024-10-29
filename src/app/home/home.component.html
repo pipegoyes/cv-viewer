@@ -1,4 +1,3 @@
-
 <div class="hidden">
     <h1>{{headline}}</h1>
     <h2>{{summary}}</h2>
@@ -17,17 +16,19 @@
         <div class="col">
             <p-card i18n-header="Languages card title|Languages card title" header="Languages">
                 <div *ngFor="let language of languages" class="col">
-                    <div>{{language.Name}}</div>
-                    <p-progressBar [value]="(language.NumberOfYearsExperience * 100) / maxLanguagesYear" [style]="{ height: '6px' }">
+                    <div>{{language.name}}</div>
+                    <p-progressBar [value]="(language.numberOfYearsExperience * 100) / maxLanguagesYear"
+                        [style]="{ height: '6px' }">
                         <ng-template pTemplate="content"></ng-template>
                     </p-progressBar>
                 </div>
-                
+
             </p-card>
         </div>
 
         <div class="col">
-            <p-card i18n-header="Projects methodologies card title|Projects methodologies card title" header="Projects methodologies">
+            <p-card i18n-header="Projects methodologies card title|Projects methodologies card title"
+                header="Projects methodologies">
                 <div *ngFor="let pm of projectMethodologies" class="col">{{pm.name}}</div>
             </p-card>
         </div>
@@ -37,7 +38,7 @@
 <div class="col">
     <p-card i18n-header="Certificates card title|Certificates card title" header="Certificates">
         <div class="flex flex-column">
-            <div *ngFor="let c of certifications" class="certification flex flex-row align-items-center" >
+            <div *ngFor="let c of certifications" class="certification flex flex-row align-items-center">
                 <div class="certification-image">
                     <img src="img/{{c.imagePath}}" [alt]="c.name" />
                 </div>
@@ -46,6 +47,6 @@
                 </div>
             </div>
         </div>
-        
+
     </p-card>
 </div>
