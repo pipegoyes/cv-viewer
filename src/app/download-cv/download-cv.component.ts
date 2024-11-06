@@ -18,7 +18,7 @@ export class DownloadCvComponent {
   downloadFileName: string | any;
 
   constructor(public personService: PersonService, @Inject(LOCALE_ID) public locale: string, private datePipe: DatePipe) {
-    this.pdfUrl = "/data/" + environment.person + "_" + locale + ".pdf"
+    this.pdfUrl = "data/" + environment.person + "_" + locale + ".pdf"
   }
 
   ngOnInit() {
