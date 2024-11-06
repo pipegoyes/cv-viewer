@@ -8,17 +8,17 @@ import { AvatarModule } from 'primeng/avatar';
 import { ButtonModule } from 'primeng/button';
 import { MenubarModule } from 'primeng/menubar';
 import { MenuModule } from 'primeng/menu';
-import { CommonModule } from '@angular/common';
+import { CommonModule, DatePipe } from '@angular/common';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { FileSaverModule } from 'ngx-filesaver';
-import { log } from 'console';
 
 @Component({
   selector: 'app-menu-side-bar',
   standalone: true,
   imports: [CommonModule, AvatarModule, ButtonModule, MenubarModule, MenuModule, RouterLink, RouterLinkActive, FileSaverModule],
   templateUrl: './menu-side-bar.component.html',
-  styleUrl: './menu-side-bar.component.css'
+  styleUrl: './menu-side-bar.component.css',
+  providers: [DatePipe]
 })
 export class MenuSideBarComponent {
   person$!: Observable<Person>;
@@ -29,9 +29,10 @@ export class MenuSideBarComponent {
   appVersion: string = environment.appVersion;
   person: string = environment.person;
   pdfUrl: string | any;
+  downloadFileName: string | any;
 
 
-  constructor(public personService: PersonService, @Inject(LOCALE_ID) public locale: string) {
+  constructor(public personService: PersonService, @Inject(LOCALE_ID) public locale: string, private datePipe: DatePipe) {
     this.pdfUrl = "/data/" + environment.person + "_" + locale + ".pdf"
     this.projectItems = [
       {
@@ -63,6 +64,8 @@ export class MenuSideBarComponent {
         { label: s.email, icon: 'pi pi-envelope' },
         { label: mobileLabel, icon: 'pi pi-phone' }
       ]
+      let currentDate = this.datePipe.transform(new Date(), 'yyyyMMdd')
+      this.downloadFileName = `${s.name!.replace(/\s/g, "")}-CV_${this.locale}_${currentDate}.pdf`
     })
   }
 
