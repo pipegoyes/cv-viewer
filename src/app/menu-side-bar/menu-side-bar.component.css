@@ -1,0 +1,60 @@
+.avatar-wrapper {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+
+    .side-bar .col .menu-wrapper,
+    .side-bar .menu-wrapper {
+        display: none;
+    }
+
+    .side-bar .header {
+        display: flex;
+    }
+
+    .name-wrapper,
+    .study {
+        align-content: center;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .study {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    .layout-wrapper {
+        display: flex;
+        height: 98vh;
+    }
+
+    .side-bar {
+        padding-right: 8px;
+    }
+
+    .avatar-wrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .avatar-title-wrapper {
+        text-align: center;
+        font-weight: bold;
+        padding: 15px;
+    }
+
+    .study {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .mobile-menu-wrapper {
+        display: none;
+    }
+
+}

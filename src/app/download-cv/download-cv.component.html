@@ -1,0 +1,3 @@
+<p-button label="Download CV" severity="primary" fileSaver [method]="'GET'" [fileName]="downloadFileName" [url]="pdfUrl"
+    (error)="onDownloadError($event)">
+</p-button>

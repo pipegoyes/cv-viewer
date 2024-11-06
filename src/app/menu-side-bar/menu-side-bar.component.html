@@ -1,0 +1,42 @@
+<div class="side-bar flex flex-column justify-content-between h-full" *ngIf="(person$ | async) as person">
+    <div class="header col">
+        <div class="avatar-wrapper" routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">
+
+            <p-avatar [image]="'img/'+ person.profilePicturePath" styleClass="mr-2" size="xlarge" shape="circle" />
+        </div>
+
+        <div class="avatar-title-wrapper">
+            <div class="name-wrapper">
+                <span>{{person.name}}</span>
+            </div>
+            <span class="study">{{person.highestEducation}}</span>
+        </div>
+
+        <!--Large screens-->
+        <div class="menu-wrapper">
+            <p-menu [model]="experienceItems" />
+            <div class="flex justify-content-center p-3">
+                <app-download-cv></app-download-cv>
+            </div>
+        </div>
+
+        <!--Small screens-->
+        <div class="mobile-menu-wrapper w-full">
+            <div class="flex flex-wrap justify-content-end">
+                <p-button *ngFor="let item of projectItems" [label]="item.label" severity="secondary" [text]="true"
+                    [routerLink]="item.routerLink"></p-button>
+                <app-download-cv></app-download-cv>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="menu-wrapper">
+        <p-menu [model]="contactItems" />
+    </div>
+
+    <div class="text-xs text-500">
+        Version {{appVersion}}
+    </div>
+</div>

@@ -1,41 +1,6 @@
 <div class="layout-wrapper">
 
-    <div class="side-bar flex flex-column justify-content-between"  *ngIf="(person$ | async) as person">
-        <div class="header col" >
-            <div class="avatar-wrapper" routerLink="/home" routerLinkActive="active" ariaCurrentWhenActive="page">
-                
-                <p-avatar 
-                    [image]="'img/'+person.profilePicturePath" 
-                    styleClass="mr-2" 
-                    size="xlarge"
-                    shape="circle" />
-            </div>
-            
-            <div class="avatar-title-wrapper">
-                <div class="name-wrapper">
-                    <span>{{person.name}}</span>
-                </div>
-                <span class="study">{{person.highestEducation}}</span>
-            </div>
-
-            <div class="menu-wrapper">
-                <p-menu [model]="expirenceItems" />
-            </div>
-
-            <div class="mobile-menu-wrapper align-content-center pl-3">
-                <p-button *ngFor="let item of projectItems" [label]="item.label" severity="secondary" [text]="true" [routerLink]="item.routerLink"></p-button>
-            </div>
-            
-        </div>        
-
-        <div class="menu-wrapper">
-            <p-menu [model]="contactItems" />
-        </div>
-
-        <div class="text-xs text-500">
-            Version {{appVersion}}
-        </div>
-    </div>
+    <app-menu-side-bar></app-menu-side-bar>
 
     <div class="main-content flex flex-column overflow-auto h-full w-full">
         <div class="navbar flex flex-row-reverse gap-3">
@@ -43,15 +8,9 @@
                 <img src="img/german-flag.svg" width="24" height="16">
             </a>
             <a href="/en-US/">
-                <img src="img/uk-flag.svg" width="24" height="16">    
+                <img src="img/uk-flag.svg" width="24" height="16">
             </a>
         </div>
         <router-outlet></router-outlet>
     </div>
 </div>
-
-
-
-
-
-
