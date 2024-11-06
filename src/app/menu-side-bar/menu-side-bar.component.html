@@ -12,13 +12,22 @@
             <span class="study">{{person.highestEducation}}</span>
         </div>
 
+        <!--Large screens-->
         <div class="menu-wrapper">
             <p-menu [model]="experienceItems" />
+            <div class="flex justify-content-center p-3">
+                <p-button label="Download CV" severity="primary" fileSaver [method]="'GET'"
+                    [fileName]="'FelipeGoyes-CV.pdf'" [url]="pdfUrl" (error)="onDownloadError($event)">
+                </p-button>
+            </div>
         </div>
 
+        <!--Small screens-->
         <div class="mobile-menu-wrapper align-content-center pl-3">
             <p-button *ngFor="let item of projectItems" [label]="item.label" severity="secondary" [text]="true"
                 [routerLink]="item.routerLink"></p-button>
+            <p-button label="Download CV" severity="primary" fileSaver [method]="'GET'"
+                [fileName]="'FelipeGoyes-CV.pdf'" [url]="pdfUrl" (error)="onDownloadError($event)"></p-button>
         </div>
 
     </div>

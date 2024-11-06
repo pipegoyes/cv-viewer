@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Inject, LOCALE_ID } from '@angular/core';
 import { Person } from '../../domain/person';
 import { Observable } from 'rxjs';
 import { PersonService } from '../person.service';
@@ -10,11 +10,13 @@ import { MenubarModule } from 'primeng/menubar';
 import { MenuModule } from 'primeng/menu';
 import { CommonModule } from '@angular/common';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { FileSaverModule } from 'ngx-filesaver';
+import { log } from 'console';
 
 @Component({
   selector: 'app-menu-side-bar',
   standalone: true,
-  imports: [CommonModule, AvatarModule, ButtonModule, MenubarModule, MenuModule, RouterLink, RouterLinkActive],
+  imports: [CommonModule, AvatarModule, ButtonModule, MenubarModule, MenuModule, RouterLink, RouterLinkActive, FileSaverModule],
   templateUrl: './menu-side-bar.component.html',
   styleUrl: './menu-side-bar.component.css'
 })
@@ -25,9 +27,12 @@ export class MenuSideBarComponent {
   projectItems: MenuItem[] | undefined;
   contactItems: MenuItem[] | undefined;
   appVersion: string = environment.appVersion;
+  person: string = environment.person;
+  pdfUrl: string | any;
 
 
-  constructor(public personService: PersonService) {
+  constructor(public personService: PersonService, @Inject(LOCALE_ID) public locale: string) {
+    this.pdfUrl = "/data/" + environment.person + "_" + locale + ".pdf"
     this.projectItems = [
       {
         label: $localize`Projects`,
@@ -59,5 +64,9 @@ export class MenuSideBarComponent {
         { label: mobileLabel, icon: 'pi pi-phone' }
       ]
     })
+  }
+
+  onDownloadError(event: any) {
+    console.log("Error downloading", event)
   }
 }
