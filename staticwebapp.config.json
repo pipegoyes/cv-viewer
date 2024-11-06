@@ -1,19 +1,19 @@
 {
-  "routes": [
-      {
-          "route": "*.{js,json,css,jpg,png,ico,webmanifest,woff,woff2,ttf,otf,svg}"
-      },
-      {
-          "route": "/index.html",
-          "rewrite": "/en-US/index.html"
-      },
-      {
-          "route": "/en-US/*",
-          "rewrite": "/en-US/index.html"
-      },
-      {
-          "route": "/de/*",
-          "rewrite": "/de/index.html"
-      }
-  ]
+    "routes": [
+        {
+            "route": "*.{js,json,css,jpg,png,pdf,ico,webmanifest,woff,woff2,ttf,otf,svg}"
+        },
+        {
+            "route": "/index.html",
+            "rewrite": "/en-US/index.html"
+        },
+        {
+            "route": "/en-US/*",
+            "rewrite": "/en-US/index.html"
+        },
+        {
+            "route": "/de/*",
+            "rewrite": "/de/index.html"
+        }
+    ]
 }
