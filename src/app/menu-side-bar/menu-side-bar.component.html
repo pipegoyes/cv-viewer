@@ -16,18 +16,18 @@
         <div class="menu-wrapper">
             <p-menu [model]="experienceItems" />
             <div class="flex justify-content-center p-3">
-                <p-button label="Download CV" severity="primary" fileSaver [method]="'GET'"
-                    [fileName]="downloadFileName" [url]="pdfUrl" (error)="onDownloadError($event)">
-                </p-button>
+                <app-download-cv></app-download-cv>
             </div>
         </div>
 
         <!--Small screens-->
-        <div class="mobile-menu-wrapper align-content-center pl-3">
-            <p-button *ngFor="let item of projectItems" [label]="item.label" severity="secondary" [text]="true"
-                [routerLink]="item.routerLink"></p-button>
-            <p-button label="Download CV" severity="primary" fileSaver [method]="'GET'" [fileName]="downloadFileName"
-                [url]="pdfUrl" (error)="onDownloadError($event)"></p-button>
+        <div class="mobile-menu-wrapper w-full">
+            <div class="flex flex-wrap justify-content-end">
+                <p-button *ngFor="let item of projectItems" [label]="item.label" severity="secondary" [text]="true"
+                    [routerLink]="item.routerLink"></p-button>
+                <app-download-cv></app-download-cv>
+            </div>
+
         </div>
 
     </div>
