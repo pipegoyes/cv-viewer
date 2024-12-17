@@ -293,27 +293,72 @@
   "certifications": [
     {
       "name": "AZ-900 Azure Fundamentals",
-      "imagePath": "azureFundamentals.png"
+      "imagePath": "azureFundamentals.png",
+      "verifyLink": "https://www.credly.com/badges/06d9e569-8312-41a9-9c3e-2598f353c1b9"
     },
     {
       "name": "TOEFL",
-      "imagePath": "toefl.png"
+      "imagePath": "toefl.png",
+      "verifyLink": null
     },
     {
       "name": "TELC Deutsch B2",
-      "imagePath": "telc.png"
+      "imagePath": "telc.png",
+      "verifyLink": null
     },
     {
       "name": "iSAQB Software Architecture - Foundation",
-      "imagePath": "isaqb.png"
+      "imagePath": "isaqb.png",
+      "verifyLink": "https://www.credly.com/badges/c8fa3448-cd8a-40b2-b585-2933f44bc4f2"
+    },
+    {
+      "name": "AWS Certified AI Practitioner",
+      "imagePath": "ai.png",
+      "verifyLink": "https://www.credly.com/badges/d27c3c6e-37f2-4324-ba48-4dc89dbb3994"
     }
   ],
   "projects": [
     {
+      "projectName": "Conference App",
+      "customer": "Bojsen Consult Gmbh",
+      "agency": null,
+      "projectType": 1,
+      "sectors": "Luftfahr",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Senior Full Stack Developer / Software Architect",
+      "centralElements": "Aviation, Cloud, Azure, iOS, Android, Blazor App",
+      "technologies": "Azure, C#/.NetCore 8, MAUI, Blazor, HTTPS, Bootstrap 5, CSS, GitHub Actions, Docker, Radzen Components",
+      "testimonies": [],
+      "startDate": "2024-10-01",
+      "endDate": null,
+      "period": "Okt 2024 - Present",
+      "description": "Für einen unserer internen Kunden designe, entwickle und implementiere ich zusätzliche Funktionen in Conference App. Die Anwendung unterstützt das Unternehmen bei der Organisation von Luftfahrtveranstaltungen und informiert die Teilnehmer über alle relevanten Details zu Konferenzvorträgen. Technologisch nutze ich den modernsten verfügbaren Stack, um maximale Leistung bei minimalem Entwicklungsaufwand zu erreichen, darunter Microsoft-Technologien wie Blazor und MAUI."
+    },
+    {
+      "projectName": "Confidential",
+      "customer": "Confidential",
+      "agency": null,
+      "projectType": 0,
+      "sectors": "Öffenlicher Dienst",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Senior Consultant",
+      "centralElements": "PWA, Official Services, On-Premise, Web Application, SQL",
+      "technologies": "Angular JS, .Net Framework, Postgres, Angular +",
+      "testimonies": [],
+      "startDate": "2024-10-01",
+      "endDate": "2024-10-30",
+      "period": "Okt 2024 - Okt 2024",
+      "description": "Analyse und Ausbewertung der Migration einer bestehenden AngularJS-Anwendung in eine Progressive Web App (PWA). Als externer Berater habe ich einen Migrations-Plan entwickelt, um wichtige PWA-Funktionen zu erreichen, und potenzielle Risiken während des Implementierungsprozesses identifiziert. Darüber hinaus habe ich ein detailliertes Dokument erstellt, in dem der Zeitplan und die Meilensteine der Entwicklung aufgeführt sind."
+    },
+    {
       "projectName": "Medical Forms",
       "customer": "Bojsen Consult Gmbh",
       "agency": null,
-      "projectType": 0,
+      "projectType": 1,
       "sectors": "Health",
       "hourlyRate": 0.0,
       "contractedHours": 0,
