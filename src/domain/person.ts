@@ -60,4 +60,5 @@ export interface Project {
 export interface Certification {
     name: string;
     imagePath?: string;
+    verifyLink?: string;
 }

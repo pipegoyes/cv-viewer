@@ -43,7 +43,12 @@
                     <img src="img/{{c.imagePath}}" [alt]="c.name" />
                 </div>
                 <div class="certification-name p-2">
+                    @if(c.verifyLink){
+                    <a href="{{c.verifyLink}}" class="link-primary font-semibold" target="_blank">{{c.name}}</a>
+                    }@else{
                     <p class="font-semibold">{{c.name}}</p>
+                    }
+
                 </div>
             </div>
         </div>
