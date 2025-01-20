@@ -15,7 +15,8 @@ jobs:
             node-version: 22
       
       - name: Run node 
-        run: npm run release
+        run: npm install && npm run release
+        
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
