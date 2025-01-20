@@ -9,14 +9,14 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-      - name: Run node 
+
+      - name: Setup node  
         uses: actions/setup-node@v4
         with:
             node-version: 22
-      
+
       - name: Run node 
         run: npm install && npm run release
-        
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v2
@@ -27,4 +27,4 @@ jobs:
 
       - name: Sync Files to S3
         run: |
-          aws s3 sync /dist/browser s3://cv-goyes.de --delete
+          aws s3 sync /dist/cv-viewer/browser s3://cv-goyes.de --delete
