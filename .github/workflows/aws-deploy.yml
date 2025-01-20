@@ -27,4 +27,4 @@ jobs:
 
       - name: Sync Files to S3
         run: |
-          aws s3 sync /dist/cv-viewer/browser s3://cv-goyes.de --delete
+          aws s3 sync /dist/cv-viewer s3://cv-goyes.de --delete
