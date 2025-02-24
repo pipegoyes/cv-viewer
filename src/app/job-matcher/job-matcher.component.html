@@ -1,0 +1,29 @@
+<div class="col">
+    <p-card header="Am I a perfect match for you job?">
+        <div>
+            <div class="pb-3">
+                Please insert all related job tasks and my AI Assistant will determinate whether my profile match with
+                your
+                expectations. <span class="font-italic text-sm">(Max length 500 Characters)</span>
+            </div>
+            <textarea name="jobDescriptionText" rows="15" maxlength="500" class="w-full"
+                [(ngModel)]="jobDescriptionText"></textarea>
+
+
+            @if(responseText){
+            <div> {{responseText}}</div>
+            }
+
+            @if(error){
+            <div class="text-red-400"> {{error}}</div>
+            }
+        </div>
+        <ng-template pTemplate="footer">
+            <div class="flex gap-4 mt-1">
+                <p-button label="Clear" (onClick)="clear()" severity="secondary" class="w-full" [outlined]="true"
+                    styleClass="w-full" />
+                <p-button label="Try it!" (onClick)="find()" class="w-full" styleClass="w-full" />
+            </div>
+        </ng-template>
+    </p-card>
+</div>

@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
-import { CardModule } from 'primeng/card';
+import { RouterOutlet } from '@angular/router';
 import { HomeComponent } from "./home/home.component";
 import { MenuSideBarComponent } from "./menu-side-bar/menu-side-bar.component";
 
