@@ -29,10 +29,10 @@ export class JobMatcherComponent {
         this.responseText = o.outputs[0].text;
       }, error => {
         console.log(error)
-        this.error = "Ups! Internal error occurs, please try it later";
+        this.error = $localize`Ups! Internal error occurs, please try it later`;
       })
     } else {
-      this.error = "Job description must be filled."
+      this.error = $localize`Job description must be filled.`
     }
   }
 

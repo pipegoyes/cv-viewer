@@ -2,39 +2,11 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="7091571651222742304" datatype="html">
-        <source>Projects</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">35</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="152625797886681940" datatype="html">
-        <source>Technologies</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">40</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3398353192845179101" datatype="html">
-        <source>Experience</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">47</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6912565884588961035" datatype="html">
-        <source>Mobile <x id="menu_item_mobile" equiv-text="s.phone"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">57</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="4614429261719490292" datatype="html">
         <source>Languages</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">18,19</context>
+          <context context-type="linenumber">17,18</context>
         </context-group>
         <note priority="1" from="description">Languages card title</note>
         <note priority="1" from="meaning">Languages card title</note>
@@ -43,7 +15,7 @@
         <source>Projects methodologies</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">30,31</context>
+          <context context-type="linenumber">31,32</context>
         </context-group>
         <note priority="1" from="description">Projects methodologies card title</note>
         <note priority="1" from="meaning">Projects methodologies card title</note>
@@ -52,10 +24,81 @@
         <source>Certificates</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">38,40</context>
+          <context context-type="linenumber">39,41</context>
         </context-group>
         <note priority="1" from="description">Certificates card title</note>
         <note priority="1" from="meaning">Certificates card title</note>
+      </trans-unit>
+      <trans-unit id="3784503736469031416" datatype="html">
+        <source>Am I a perfect match for you job?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/job-matcher/job-matcher.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+        <note priority="1" from="description">Am I a perfect match for you job?</note>
+      </trans-unit>
+      <trans-unit id="2971067888318781156" datatype="html">
+        <source>Please insert all related job tasks and my AI Assistant will determine whether my profile match with your expectations.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/job-matcher/job-matcher.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6065508732787738530" datatype="html">
+        <source>(Max length 500 Characters)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/job-matcher/job-matcher.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7402649142035881797" datatype="html">
+        <source>Ups! Internal error occurs, please try it later</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/job-matcher/job-matcher.component.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4033237945869509948" datatype="html">
+        <source>Job description must be filled.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/job-matcher/job-matcher.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7091571651222742304" datatype="html">
+        <source>Projects</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-side-bar/menu-side-bar.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="152625797886681940" datatype="html">
+        <source>Technologies</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-side-bar/menu-side-bar.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4022640752660239149" datatype="html">
+        <source>AI Match</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-side-bar/menu-side-bar.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3398353192845179101" datatype="html">
+        <source>Experience</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-side-bar/menu-side-bar.component.ts</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6912565884588961035" datatype="html">
+        <source>Mobile <x id="menu_item_mobile" equiv-text="s.phone"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu-side-bar/menu-side-bar.component.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="3330810211668185399" datatype="html">
         <source>till</source>

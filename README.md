@@ -1,5 +1,4 @@
 todos
-- use enviorement variables to handle person name
 - change redirect to another technic to keep the domain (goyes.de)
 
 Bugs 
@@ -25,3 +24,8 @@ features
 ## Localization
 Ng Serve does not support multiple locale, in case of testing a german functionality, please delete the english one ( See angular.json (build-> options -> localize) )
  Ex. "localize": ["de"]
+
+ ## Localization - New texts ? update locale files
+ - Extract messages 
+    ng extract-i18n --output-path src/locale
+ - Duplicate file and update values, alternative pick up the relevant changes and update the locale file
