@@ -1,5 +1,5 @@
-import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { Inject, Injectable, LOCALE_ID } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ApiGatewayRequest, ApiGatewayResponse } from '../domain/ApiGatewayResponse';
 
@@ -8,18 +8,20 @@ import { ApiGatewayRequest, ApiGatewayResponse } from '../domain/ApiGatewayRespo
 })
 export class MistralApiService {
 
-  // todo move to env.
-  private apiUrl = '/mistral';
+  apiUrl = '/mistral';
+  language;
 
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, @Inject(LOCALE_ID) public locale: string) {
+    this.language = locale;
+  }
 
   find(jobDescriptionText: string): Observable<ApiGatewayResponse> {
-    let request: ApiGatewayRequest = {
-      body: jobDescriptionText
-    }
+    var language = this.language
+    const body = { jobDescriptionText, language };
+    const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
 
-    return this.http.post<ApiGatewayResponse>(this.apiUrl, request);
+    return this.http.post<any>(this.apiUrl, body, { headers });
   }
 
 }

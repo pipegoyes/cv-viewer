@@ -17,6 +17,7 @@ export class JobMatcherComponent {
   responseText: string | undefined;
   error: string | undefined;
   apiService: MistralApiService | undefined;
+  isProcessing: boolean = false;
 
   constructor(private MistralApiService: MistralApiService) {
     this.apiService = MistralApiService;
@@ -24,15 +25,19 @@ export class JobMatcherComponent {
 
 
   find() {
+    this.isProcessing = true;
     if (this.jobDescriptionText) {
       this.apiService?.find(this.jobDescriptionText).subscribe(o => {
         this.responseText = o.outputs[0].text;
+        this.isProcessing = false;
       }, error => {
         console.log(error)
+        this.isProcessing = false;
         this.error = $localize`Ups! Internal error occurs, please try it later`;
       })
     } else {
       this.error = $localize`Job description must be filled.`
+      this.isProcessing = false;
     }
   }
 
