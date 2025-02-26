@@ -1,7 +1,6 @@
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Inject, Injectable, LOCALE_ID } from '@angular/core';
 import { Observable } from 'rxjs';
-import { ApiGatewayRequest, ApiGatewayResponse } from '../domain/ApiGatewayResponse';
 
 @Injectable({
   providedIn: 'root'
