@@ -15,7 +15,7 @@ export class MistralApiService {
     this.language = locale;
   }
 
-  find(jobDescriptionText: string): Observable<ApiGatewayResponse> {
+  find(jobDescriptionText: string): Observable<any> {
     var language = this.language
     const body = { jobDescriptionText, language };
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
