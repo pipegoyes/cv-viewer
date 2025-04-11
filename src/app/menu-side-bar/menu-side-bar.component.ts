@@ -40,12 +40,6 @@ export class MenuSideBarComponent {
         icon: 'pi pi-plus',
         routerLink: "/techs"
       },
-
-      {
-        label: $localize`AI Match`,
-        icon: 'pi pi-plus',
-        routerLink: "/job-matcher"
-      },
     ]
     this.experienceItems = [
       {

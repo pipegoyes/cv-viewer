@@ -64,7 +64,7 @@
   ],
   "frameworks": [
     {
-      "name": "C#/.NET (APS.Net, .NetFramework, .NetCore)",
+      "name": "C#/.NET (ASP.Net, .NetFramework, .NetCore)",
       "sinceTheBeginning": false,
       "numberOfYearsExperience": 12
     },
