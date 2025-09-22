@@ -157,6 +157,11 @@
       "name": "Terraform",
       "sinceTheBeginning": false,
       "numberOfYearsExperience": 2
+    },
+    {
+      "name": "Python",
+      "sinceTheBeginning": false,
+      "numberOfYearsExperience": 1
     }
   ],
   "projectManagementMethodologies": [
@@ -319,6 +324,23 @@
   ],
   "projects": [
     {
+      "projectName": "BA Genie",
+      "customer": "Capco",
+      "agency": null,
+      "projectType": 1,
+      "sectors": "Technology and Engineering",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "AI Engineer",
+      "centralElements": "AI Workflows, Cloud, Azure, AWS, Jira",
+      "technologies": "Python, Autogen, HTTPS, Azure OpenAI, Docker",
+      "testimonies": [],
+      "startDate": "2025-05-15",
+      "endDate": "2025-07-31",
+      "description": "Entwicklung und Implementierung eines Tools zur automatisierten Erstellung von JIRA-Arbeitspaketen aus unstrukturierten Daten, wodurch die Effizienz im Aufgabenmanagement teamsübergreifend verbessert wurde. Erstellung von Architekturdiagrammen zur anschaulichen Darstellung komplexer Integrationsszenarien zwischen Azure- und AWS-Umgebungen. Verfassen umfassender Dokumentationen zur Softwarearchitektur und zu den Anforderungen zur Unterstützung von Entwicklung, Abstimmung mit Stakeholdern und laufendem Systembetrieb."
+    },
+    {
       "projectName": "Conference App",
       "customer": "Bojsen Consult Gmbh",
       "agency": null,
@@ -333,7 +355,6 @@
       "testimonies": [],
       "startDate": "2024-10-01",
       "endDate": null,
-      "period": "Okt 2024 - Present",
       "description": "Für einen unserer internen Kunden designe, entwickle und implementiere ich zusätzliche Funktionen in Conference App. Die Anwendung unterstützt das Unternehmen bei der Organisation von Luftfahrtveranstaltungen und informiert die Teilnehmer über alle relevanten Details zu Konferenzvorträgen. Technologisch nutze ich den modernsten verfügbaren Stack, um maximale Leistung bei minimalem Entwicklungsaufwand zu erreichen, darunter Microsoft-Technologien wie Blazor und MAUI."
     },
     {
@@ -351,7 +372,6 @@
       "testimonies": [],
       "startDate": "2024-10-01",
       "endDate": "2024-10-30",
-      "period": "Okt 2024 - Okt 2024",
       "description": "Analyse und Ausbewertung der Migration einer bestehenden AngularJS-Anwendung in eine Progressive Web App (PWA). Als externer Berater habe ich einen Migrations-Plan entwickelt, um wichtige PWA-Funktionen zu erreichen, und potenzielle Risiken während des Implementierungsprozesses identifiziert. Darüber hinaus habe ich ein detailliertes Dokument erstellt, in dem der Zeitplan und die Meilensteine der Entwicklung aufgeführt sind."
     },
     {
@@ -369,7 +389,6 @@
       "testimonies": [],
       "startDate": "2024-08-01",
       "endDate": null,
-      "period": "Aug 2024 - Present",
       "description": "Als Senior Software Developer und Architekt gehören zu meinen Aufgaben die Konzeption, Entwicklung und Veröffentlichung neuer Funktionalitäten. Mit Hilfe modernster Technologien habe ich dazu beigetragen, komplexe Formulare einfach und digital zugänglich zu machen. Darüber hinaus habe ich unsere architektonischen Entscheidungen dokumentiert und kontinuierlich weiterentwickelt, um das Onboarding neuer Mitarbeiter effizienter und reibungsloser zu gestalten. Das Ergebnis wurde in der Cloud gehostet und durch den Einsatz einer CI/CD-Pipeline unterstützt, was eine schnelle und zuverlässige Bereitstellung sicherstellte."
     },
     {
@@ -387,7 +406,6 @@
       "testimonies": [],
       "startDate": "2023-04-01",
       "endDate": "2024-07-31",
-      "period": "Apr 2023 - Jul 2024",
       "description": "Als Senior Software Developer habe ich aktiv im Backend-Team mitgewirkt und dabei Technologien wie Entity Framework Core, Camunda und SQL Server erfolgreich eingesetzt. Gemeinsam mit dem Business habe ich die richtigen Anforderungen identifiziert und in die Entwicklung neuer Features integriert, stets mit Fokus auf hohe Geschwindigkeit und Qualität. Meine Beteiligung an architektonischen Entscheidungen sowie die Implementierung von Software Best-Practices und Scrum im Projekt haben wesentlich zur erfolgreichen Umsetzung beigetragen. Die Qualitätssicherung wurde durch den Einsatz von Unit Tests und Integrationstests gewährleistet. Zudem habe ich meine Kollegen durch Coaching dabei unterstützt, die Sprintziele zu erreichen. Durch enge Kommunikation mit Stakeholdern und der Projektleitung habe ich zur Erreichung langfristiger Milestones beigetragen. In einem hochkomplexen Softwareprojekt, das drei Entwicklungsteams und über 30 beteiligte Personen umfasste, konnte ich maßgeblich zum Erfolg des Projekts beitragen."
     },
     {
@@ -405,7 +423,6 @@
       "testimonies": [],
       "startDate": "2020-01-01",
       "endDate": "2023-03-31",
-      "period": "Jan 2020 - Mär 2023",
       "description": "In einem stabilen Team aus erfahrenen Consultants habe ich zur Flexibilität und Robustheit der Software beigetragen, indem wir architektonische Entscheidungen getroffen haben, die langfristig wirkten. Unser Fokus lag auf der Erweiterung der Funktionalität eines komplexen, missionskritischen Systems und der Qualitätssicherung, insbesondere durch die Neugestaltung von Prozessen mithilfe von Zustandsautomaten für den Lebenszyklus von Instrumenten und Corporate Actions. Technologien wie .NET Core und SQL Server kamen dabei zum Einsatz. Zusätzlich entwickelten wir eine WPF-Anwendung, die Benutzeraktionen erheblich vereinfachte. Die enge Zusammenarbeit mit anderen Teams und die Implementierung von WebAPIs ermöglichten eine reibungslose Kommunikation zwischen verschiedenen Systemen. Zudem haben wir eine CI/CD-Pipeline aufgebaut und erfolgreich mit TeamCity gesteuert, um eine kontinuierliche Integration und Bereitstellung sicherzustellen. Die Software spielte eine zentrale Rolle im gesamten Prozess der Emission von Finanzprodukten und war entscheidend für den Projekterfolg."
     },
     {
@@ -423,7 +440,6 @@
       "testimonies": [],
       "startDate": "2019-02-01",
       "endDate": "2019-12-31",
-      "period": "Feb 2019 - Dez 2019",
       "description": "Design, Umsetzung und Release waren meine Haupttätigkeiten als Full Stack Developer. ich war verantwortlich für die Entwicklung mehrerer internationaler Websites und die komplette Begleitung neuer Features – von Prototyping bis hin zum Release. Meine Haupttätigkeit bestand in der Erweiterung der Funktionalität einer global genutzten Webanwendung sowie in der Anpassung interner Softwarelösungen, einschließlich sowohl Legacy- als auch ausgereifter Systeme. Dabei arbeitete ich eng mit mehreren Stakeholdern zusammen, darunter verschiedene Entwicklungsteams und internationale Verantwortliche für jede Website. In diesem Kontext kamen Technologien wie Angular, MVC, Redux und WebAPIs zum Einsatz. Meine Rolle erforderte eine ständige Kommunikation mit Stakeholdern weltweit, um sicherzustellen, dass die Anforderungen präzise umgesetzt und die internationalen Standards eingehalten wurden."
     },
     {
@@ -441,7 +457,6 @@
       "testimonies": [],
       "startDate": "2017-04-01",
       "endDate": "2019-01-31",
-      "period": "Apr 2017 - Jan 2019",
       "description": "Als Mitglied eines agilen Teams, das SCRUM lebte, war ich verantwortlich die Single Page Application mit AngualrJs mit Anbindung an Azure-Cloud-Services unter Anwendung von SOLID und CleanCode für eine Verfügbarkeit von 24h/7Tage die Woche zu entwickeln. Ein weiterer Schwerpunkt war das Coaching und die Betreuung von Junior-Developers"
     },
     {
@@ -459,7 +474,6 @@
       "testimonies": [],
       "startDate": "2015-09-01",
       "endDate": "2017-03-31",
-      "period": "Sep 2015 - Mär 2017",
       "description": "Ich war verantwortlich für unterschiedliche Web Applications, zur Unterstützung der Prozesse der Firma optimal zu unterstützen, zu planen und zu entwickeln. Eine enge Zusammenarbeit mit dem Fachbereich ermöglichte es mir die Anforderungen korrekt umzusetzen und benutzerfreundliche Anwendungen zu implementieren"
     },
     {
@@ -477,7 +491,6 @@
       "testimonies": [],
       "startDate": "2014-06-01",
       "endDate": "2015-08-31",
-      "period": "Jun 2014 - Aug 2015",
       "description": "Ich war eigenständig dafür verantwortlich die bestehende Anwendung der Zeiterfassung auf einen neuen Technologie-Stack zu migrieren. Es war wichtig externe Schnittstellen beizubehalten und die Performance durch Einführung von WCF-Dienste zu optimieren"
     },
     {
@@ -495,7 +508,6 @@
       "testimonies": [],
       "startDate": "2013-03-01",
       "endDate": "2014-05-31",
-      "period": "Mär 2013 - Mai 2014",
       "description": "Design, Entwicklung und Implementierung von Anforderungen im Banksystem unter Verwendung der besten Technologien für die .Net-Plattform wie JQuery, AjaxToolkit, CSS3, Entity Framework und LinQ."
     },
     {
@@ -513,7 +525,6 @@
       "testimonies": [],
       "startDate": "2012-02-01",
       "endDate": "2013-03-31",
-      "period": "Feb 2012 - Mär 2013",
       "description": "Verantwortlich für Entwicklungsprojekte, Erstellung innovativer und technologischer Lösungen mit Programmiersprachen wie JQuery, AJAX, JavaScript und CSS auf der .Net-Plattform"
     },
     {
@@ -531,7 +542,6 @@
       "testimonies": [],
       "startDate": "2010-10-01",
       "endDate": "2011-05-30",
-      "period": "Okt 2010 - Mai 2011",
       "description": "Erstellen, Implementieren und Entwickeln neuer Trends im deutschen Banksystem mit 8 Mitgliedern aus 8 verschiedenen Ländern. Einige dieser Ideen wurden in der auf Objective-C basierenden mobilen Plattform umgesetzt"
     },
     {
@@ -549,7 +559,6 @@
       "testimonies": [],
       "startDate": "2010-01-01",
       "endDate": "2010-03-31",
-      "period": "Jan 2010 - Mär 2010",
       "description": "Entwurfs- und Entwicklungsprojekt zu XML mit Visual Basic .Net 2008 und einigen Tools zur Transformation von XML-Dokumenten, beispielsweise XPath und XSL, um die spezifischen Informationen aus dem Originaldokument zu erhalten."
     }
   ]
