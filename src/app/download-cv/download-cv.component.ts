@@ -1,9 +1,10 @@
-import { Component, Inject, LOCALE_ID } from '@angular/core';
+import { Component, Inject, LOCALE_ID, OnDestroy } from '@angular/core';
 import { FileSaverModule } from 'ngx-filesaver';
 import { ButtonModule } from 'primeng/button';
 import { PersonService } from '../person.service';
 import { environment } from '../../environments/environment';
 import { CommonModule, DatePipe } from '@angular/common';
+import { Subject, takeUntil } from 'rxjs';
 
 @Component({
   selector: 'app-download-cv',
@@ -13,18 +14,27 @@ import { CommonModule, DatePipe } from '@angular/common';
   styleUrl: './download-cv.component.css',
   providers: [DatePipe]
 })
-export class DownloadCvComponent {
+export class DownloadCvComponent implements OnDestroy {
   pdfUrl: string | any;
   downloadFileName: string | any;
+
+  private destroy$ = new Subject<void>();
 
   constructor(public personService: PersonService, @Inject(LOCALE_ID) public locale: string, private datePipe: DatePipe) {
     this.pdfUrl = "data/" + environment.person + "_" + locale + ".pdf"
   }
 
   ngOnInit() {
-    this.personService.getPerson(environment.person).subscribe(s => {
+    this.personService.getPerson(environment.person).pipe(
+      takeUntil(this.destroy$)
+    ).subscribe(s => {
       this.downloadFileName = this.buildDownloadFileName(s.name!)
     })
+  }
+
+  ngOnDestroy() {
+    this.destroy$.next();
+    this.destroy$.complete();
   }
 
   buildDownloadFileName(name: string): string {
