@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage -->
+  <url>
+    <loc>https://goyes.de/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://goyes.de/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://goyes.de/en-US/" />
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <!-- German Version -->
+  <url>
+    <loc>https://goyes.de/de/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://goyes.de/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://goyes.de/en-US/" />
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <!-- English Version -->
+  <url>
+    <loc>https://goyes.de/en-US/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://goyes.de/de/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://goyes.de/en-US/" />
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <!-- Projects Page (German) -->
+  <url>
+    <loc>https://goyes.de/de/projects</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <!-- Projects Page (English) -->
+  <url>
+    <loc>https://goyes.de/en-US/projects</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <!-- Technologies Page (German) -->
+  <url>
+    <loc>https://goyes.de/de/techs</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  
+  <!-- Technologies Page (English) -->
+  <url>
+    <loc>https://goyes.de/en-US/techs</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
