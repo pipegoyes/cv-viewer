@@ -33,12 +33,12 @@ export class MenuSideBarComponent {
       {
         label: $localize`Projects`,
         icon: 'pi pi-plus',
-        routerLink: "/projects"
+        routerLink: "projects"
       },
       {
         label: $localize`Technologies`,
         icon: 'pi pi-plus',
-        routerLink: "/techs"
+        routerLink: "techs"
       },
     ]
     this.experienceItems = [
