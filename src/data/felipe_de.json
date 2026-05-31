@@ -324,6 +324,23 @@
   ],
   "projects": [
     {
+      "projectName": "Transaction Engine",
+      "customer": "Commerzbank",
+      "agency": null,
+      "projectType": 0,
+      "sectors": "Banking",
+      "hourlyRate": 0.0,
+      "contractedHours": 0,
+      "deliveredHours": 0,
+      "role": "Team Lead / Senior Software Developer",
+      "centralElements": "Enterprise Integration, Migration, Banking, Apache Camel",
+      "technologies": "Apache Camel, Java, Spring Boot, XML, REST, Maven, Git",
+      "testimonies": [],
+      "startDate": "2025-11-01",
+      "endDate": "2026-02-28",
+      "description": "Leitung der Migration bestehender Transaktionsverarbeitungs-Flows in ein modernes Apache Camel-basiertes Integrationsframework bei einer der größten deutschen Banken. Als Team Lead war ich verantwortlich für die Koordination des Entwicklungsteams, die Definition der Migrationsstrategie und die reibungslose Überführung des bestehenden Systems in die neue Architektur. Das Projekt umfasste die Analyse komplexer Geschäftsprozesse, deren Neugestaltung als wartbare Camel-Routes sowie die Sicherstellung von Datenintegrität und Zuverlässigkeit während des gesamten Migrationsprozesses. Eine enge Zusammenarbeit mit Fachbereichen, Architekten und dem Betrieb war entscheidend für die termingerechte und anforderungsgerechte Umsetzung des Projekts."
+    },
+    {
       "projectName": "BA Genie",
       "customer": "Capco",
       "agency": null,
